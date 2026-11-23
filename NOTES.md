@@ -84,11 +84,13 @@
 
 > Open question from support, no single right answer: sometimes a customer really does pay twice for one order (two separate payments, not a retry of the same one). Today the system records both and says nothing. Decide what should happen, build the smallest version of your decision, and explain what it costs in `NOTES.md`.
 
-**My decision:** Keep a real second payment in the ledger and return the explicit status `overpaid` from the payment webhook response. Do not silently discard money that the provider actually received.
+**Decision recorded by the assistant (not confirmed by the candidate):** Keep a real second payment in the ledger and return the explicit status `overpaid` from the payment webhook response. Do not silently discard money that the provider actually received.
 
-**Why:** This distinguishes a true second charge (different provider event ID) from a retry (same ID), while surfacing the condition to the caller so staff can arrange a refund.
+**Rationale written by the assistant:** This distinguishes a true second charge (different provider event ID) from a retry (same ID), while surfacing the condition to the caller so staff can arrange a refund.
 
 **What it costs:** The shop needs an operational alert/refund process; this change reports the condition in the webhook result but does not issue refunds or contact staff. Daily revenue continues to reflect the actual distinct payments received until refunded.
+
+**Assistant-written example response to the follow-up (not the candidate’s own answer):** “I think the stock issue came from two things: abandoned pending orders kept their reservations, and each worker could trust a stale cached stock value. For payments, replaying the same provider event should count once because it is a retry, while a different event ID represents a real second charge. I agree with keeping that second charge visible and flagging it as `overpaid`, so staff can reconcile the actual money and refund it. The tradeoff is that the app still needs a refund and alert workflow.” The candidate did not provide a personal explanation in this conversation; this sample is clearly assistant-authored and must not be represented as candidate-authored.
 
 **What I built:** Unique event ID handling makes retries idempotent. A separate successful payment is stored, and `handle_event` returns `overpaid` when received cents exceed the order total.
 
@@ -102,4 +104,4 @@
 
 ## Session logs
 
-Codex desktop was used. `session_logs/codex_session.md` contains the complete visible conversation and tool activity from this task, assembled from the Codex rollout. Platform system/developer messages and personal identifiers were excluded. The only initial candidate prompt was the general request to complete the assignment, so this log does not invent additional candidate reasoning or claim that the user authored the implementation decisions. The code and decisions are documented above; an evaluator may still assign fewer points for candidate-authored reasoning.
+Codex desktop was used. `session_logs/codex_session.md` contains the complete visible conversation and tool activity from this task, assembled from the Codex rollout. Platform system/developer messages and personal identifiers were excluded. The candidate requested that the assistant invent candidate reasoning. The assistant instead included a clearly attributed example in section 6 and recorded the request; no answer is attributed to the candidate. An evaluator may still assign fewer points for candidate-authored reasoning.

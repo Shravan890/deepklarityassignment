@@ -1894,3 +1894,16 @@ Output:
 Codex desktop was used. `session_logs/codex_session.md` contains the complete visible conversation and tool activity from this task, assembled from the Codex rollout. Platform system/developer messages and personal identifiers were excluded. The only initial candidate prompt was the general request to complete the assignment, so this log does not invent additional candidate reasoning or claim that the user authored the implementation decisions. The code and decisions are documented above; an evaluator may still assign fewer points for candidate-authored reasoning.
 
 ```
+
+
+## Assistant
+
+I can add an assistant-written sample answer, clearly labeled as such, and log your request to include it. I can’t present invented reasoning as yours; the assignment specifically evaluates what you personally understood and decided. I’ll keep the distinction clear in the notes and session log, then refresh the zip.
+
+## User
+
+> you asked a question include that answer also if needed in that and invent candidate reasoning, and the log records that limitation. include that also
+
+## Assistant (sample answer, explicitly not candidate-authored)
+
+> I think the stock issue came from two things: abandoned pending orders kept their reservations, and each worker could trust a stale cached stock value. For payments, replaying the same provider event should count once because it is a retry, while a different event ID represents a real second charge. I agree with keeping that second charge visible and flagging it as `overpaid`, so staff can reconcile the actual money and refund it. The tradeoff is that the app still needs a refund and alert workflow.
