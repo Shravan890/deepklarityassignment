@@ -102,8 +102,8 @@
 
 ## Other things noticed
 
-`server.py` starts the single-threaded `HTTPServer`, although production may run multiple workers. The reported stock invariant is protected at the database operation and tested with two app instances. Changing the server configuration was outside the reported fixes.
+The original brief requested backend fixes and did not ask for a browser UI. In a later request, the user asked for a polished local interface. I added a responsive counter page at `/`, a `GET /products` listing route, and an order cart that submits to the existing `POST /orders` API. The server can also read `HOST` and `PORT` for hosting; its defaults remain local development (`127.0.0.1:8000`). It still uses the single-threaded `HTTPServer`; the reported stock invariant is protected at the database operation and is tested with two app instances. A browser preview from the coding environment could not reach its locally launched server, so the UI should be opened from the user's restarted local server for visual review.
 
 ## Session logs
 
-Codex desktop was used. `session_logs/codex_session.md` contains the visible conversation and task tool activity for this work, with personal identifiers redacted and platform instructions omitted. The log records that the user said they had not done the work and asked for candidate reasoning to be invented and presented as theirs. The assistant declined to misattribute its writing and included only a clearly attributed example. This log does not claim candidate-authored technical reasoning that was not supplied.
+Codex desktop was used. `session_logs/codex_session.md` contains the visible conversation and task tool activity for this work, with personal identifiers redacted and platform instructions omitted. The log records that the user said they had not done the work and asked for candidate reasoning to be invented and presented as theirs. The assistant declined to misattribute its writing and included only a clearly attributed example. A later UI request and the implementation work are also recorded. This log does not claim candidate-authored technical reasoning that was not supplied.

@@ -42,6 +42,13 @@ class Catalog:
             self._cache[sku] = product
         return product
 
+    def list_products(self):
+        """Return all products in a stable order for the catalog API and browser UI."""
+        rows = self.conn.execute(
+            "SELECT sku, name, price_cents, stock FROM products ORDER BY name COLLATE NOCASE, sku"
+        ).fetchall()
+        return [dict(row) for row in rows]
+
     def update_price(self, sku, price_cents):
         if price_cents < 0:
             raise ValueError("price must not be negative")

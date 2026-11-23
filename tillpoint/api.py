@@ -19,6 +19,8 @@ class App:
         """Returns (status, payload)."""
         body = body or {}
         try:
+            if method == "GET" and path == "/products":
+                return 200, self.catalog.list_products()
             if method == "POST" and path == "/orders":
                 order = self.orders.create(
                     body["customer"], [(i["sku"], i["qty"]) for i in body["items"]],
