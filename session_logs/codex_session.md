@@ -3805,3 +3805,15 @@ I found the project had no UI route, only JSON APIs. I added a responsive, color
 ## Verification note
 
 The coding environment could not reach the locally launched preview server on port 8001, so I could not inspect the rendered page in a browser here. The user can preview it by restarting the server from the project folder and opening `http://127.0.0.1:8000/`.
+
+## User
+
+> is that it check once every requirement from that submission folders for is it correct or not
+
+## Assistant
+
+I compared the current project with `CANDIDATE_BRIEF.md`, `README.md`, `NOTES.md`, the session log instructions, `.git`, and the current zip. The 13 existing tests passed. That audit surfaced a payment edge case: if partial payments crossed the total, the response was `overpaid` but the order could stay `pending`.
+
+## Tool result
+
+Added a regression for that case. It failed before the fix because the order remained pending. Updated the payment handler to mark the order paid before returning `overpaid`; the full suite then passed all 14 tests. The source and notes now include commit `a23904a`.

@@ -94,11 +94,11 @@
 
 **What was built:** The handler records distinct successful payments and returns `overpaid` when cumulative payments exceed the order total. Replays of the same event do not add another payment.
 
-**How it was verified:** A regression test sends two distinct successful events for one order, checks that the second returns `overpaid`, and confirms both amounts remain in the ledger. A separate test confirms retries with the same event ID are counted once. The full suite passes.
+**How it was verified:** A regression test sends two distinct successful events for one order, checks that the second returns `overpaid`, and confirms both amounts remain in the ledger. A separate test confirms retries with the same event ID are counted once. Another test checks that partial payments which cross the order total still mark the order paid while returning `overpaid`. The full suite passes.
 
 **Assistant-written example for the candidate to consider, not a candidate statement:** “I think the stock issue came from abandoned pending orders keeping reservations and from workers trusting stale cached stock. For payments, a retry of the same provider event should count once, while a different event ID represents a real second charge. I would keep that second charge visible and flag it as `overpaid` so staff can reconcile and refund it. The tradeoff is that the app still needs a refund and alert process.” Use this only if it matches your own view; the user said they had not done the work, so it is not represented here as their answer.
 
-**Commits:** c8cfdf9, 90984d9
+**Commits:** c8cfdf9, 90984d9, a23904a
 
 ## Other things noticed
 
