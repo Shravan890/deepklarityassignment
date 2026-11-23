@@ -1,18 +1,20 @@
 # NOTES
 
+**Authorship note:** The user stated that they did not do the technical work. Codex inspected the repository, reproduced the reported behaviors, wrote the fixes and tests, and prepared these technical explanations. This document describes the work accurately; it does not present the assistant’s analysis as the candidate’s personal experience. Section 6 includes a clearly attributed example the candidate can use to understand the tradeoff, not as a statement they personally made.
+
 ## 1. Report
 
 > Finance says that on some days the revenue in the daily report is higher than what the payment provider paid out, and a few orders show more money received than their total.
 
 **Status:** fixed
 
-**What I saw:** `Payments.handle_event` inserted each delivery as a new payment, so replaying one provider event increased both the order's received total and daily revenue. An initial event could also exceed the order total.
+**What the code showed:** `Payments.handle_event` inserted every successful delivery into `payments`. Replaying the same provider event therefore added the same amount again. A first payment larger than the order total was also accepted.
 
-**Root cause:** Payment event IDs were not unique and the handler did not recognize a repeated delivery or reject an amount larger than the outstanding amount on a fresh order.
+**Root cause:** The payment table did not require unique provider event IDs, and the handler did not check whether a first payment exceeded the amount due.
 
-**Fix and why:** Enforce unique event IDs, treat a repeat for the same order as idempotent, reject a reused ID for a different order, and reject a first payment above the order total. This keeps provider retries from creating fictitious receipts. Separate successful payments are handled by the decision in section 6.
+**Fix and why:** Provider event IDs are unique. A replay for the same order is treated as idempotent, while reuse of that ID for a different order is rejected. An initial payment greater than the order total is rejected. This prevents retries or invalid initial amounts from creating fictitious receipts. A separate genuine payment is handled under section 6.
 
-**How I verified it:** Added tests showing replaying an event leaves received cents unchanged, a too-large first payment is rejected, and the original payment remains recorded. The full unittest suite passes.
+**How it was verified:** Regression tests were run against the original implementation and failed. After the fix, the tests show that replaying one event leaves the received total unchanged and a too-large first payment is rejected without being recorded. The full suite passes.
 
 **Commits:** c8cfdf9, 90984d9
 
@@ -22,13 +24,13 @@
 
 **Status:** fixed
 
-**What I saw:** Creating an order reserves stock before payment. Cancelling a pending order did not release those units. Also, two app instances could hold stale cached stock and each approve a reservation based on the same quantity.
+**What the code showed:** Orders reserve stock when created. Cancelling a pending order did not restore the reservation; only paid orders were restocked. Each process also used a local product cache when checking available stock.
 
-**Root cause:** Pending cancellations only restored stock for paid orders, and the reservation check and decrement were separate operations using a per-process cache.
+**Root cause:** Pending cancellations leaked reservations. Separately, the check and decrement were not one database operation, so a worker with a stale cached stock value could authorize a reservation using out-of-date information.
 
-**Fix and why:** Restore stock for pending as well as paid cancellations. Reserve with one conditional SQL update (`stock >= qty`) inside the existing immediate transaction, then report the actual remaining stock if it fails. This makes concurrent workers serialize against database state instead of stale cache values.
+**Fix and why:** Cancelling either a pending or paid order restores its reserved units. Reservation now uses one conditional SQL update that subtracts units only when `stock >= qty`; the order's immediate transaction protects the operation across workers. This puts the stock decision against current database state.
 
-**How I verified it:** Added tests that cancel an unpaid order and that prime a second worker's stale cache before competing for the final unit. Only one reservation succeeds and stock stays at zero. Full suite passes.
+**How it was verified:** Regression tests were run against the original implementation and failed. After the fix, a pending-order cancellation restores stock, and a second app instance with a stale cache cannot reserve the last unit after the first instance has taken it. Persisted stock remains zero rather than going negative. The full suite passes.
 
 **Commits:** c8cfdf9, 26dfef4, 520c341
 
@@ -38,13 +40,13 @@
 
 **Status:** fixed
 
-**What I saw:** `price_order` computed tax from the full subtotal before subtracting a coupon discount.
+**What the code showed:** `price_order` calculated tax from the full subtotal and only then subtracted the coupon discount.
 
-**Root cause:** The taxable amount ignored the discount.
+**Root cause:** The calculation used the pre-discount subtotal as the taxable amount.
 
-**Fix and why:** Calculate tax on `subtotal - discount`, then add that tax to the discounted subtotal. This matches the receipt behavior requested for coupon purchases.
+**Fix and why:** The taxable amount is now `subtotal - discount`; tax is then added to the discounted amount. This applies the coupon before calculating tax.
 
-**How I verified it:** Added a CA-region test for a $10 item with 10% coupon: discount is 100 cents, tax is 65 cents, total is 965 cents. Full suite passes.
+**How it was verified:** Regression tests were run against the original implementation and failed. The CA test for a $10 item with a 10% coupon checks a $1 discount, 65 cents tax, and a $9.65 total. The full suite passes.
 
 **Commits:** c8cfdf9, 347c224
 
@@ -54,13 +56,13 @@
 
 **Status:** fixed
 
-**What I saw:** For a positive local UTC offset, the report code moved local midnight later into UTC. India midnight is 18:30 UTC on the previous calendar day, so the calculation shifted the window in the wrong direction.
+**What the code showed:** `day_bounds_utc` added a positive local offset to local midnight. India midnight is 18:30 UTC on the preceding date, so the conversion moved the boundary in the wrong direction.
 
-**Root cause:** `day_bounds_utc` added the local UTC offset to the date labeled UTC instead of subtracting it.
+**Root cause:** The offset was added where it needed to be subtracted to convert the shop's local midnight to UTC.
 
-**Fix and why:** Subtract the offset to convert local midnight to UTC; keep the half-open one-day interval.
+**Fix and why:** The report now subtracts `utc_offset_minutes` when calculating the UTC start of the local day and queries the interval up to, but not including, the next day's start.
 
-**How I verified it:** Added an India +330 minute test for a payment at 01:30 local time. It appears on March 10 and not March 9. Full suite passes.
+**How it was verified:** Regression tests were run against the original implementation and failed. With a +330-minute offset, a payment at 01:30 India time appears on March 10 and not March 9. The full suite passes.
 
 **Commits:** c8cfdf9, d523b9a
 
@@ -70,13 +72,13 @@
 
 **Status:** fixed
 
-**What I saw:** Each worker can cache a product's stock. A worker with a stale positive value passed the Python check and decremented stock without a stock predicate in SQL.
+**What the code showed:** `Catalog.reserve` read the cached stock, checked it in Python, then ran an unconditional decrement. Separate workers could each make the check using a stale positive value.
 
-**Root cause:** The read-check-write sequence was not atomic with respect to the current database stock.
+**Root cause:** Reading, checking, and decrementing stock were separate steps, with no database condition protecting the decrement.
 
-**Fix and why:** Use `UPDATE ... WHERE stock >= ?` and check affected rows, within the order's `BEGIN IMMEDIATE` transaction. A stale cache can no longer authorize an oversell.
+**Fix and why:** The database now performs the decrement only when enough stock remains, and the reservation is inside `BEGIN IMMEDIATE`. If the conditional update affects no rows, the code reads current stock and raises `OutOfStock`.
 
-**How I verified it:** The competing-worker regression test uses two SQLite connections and primes a stale cache; the second order raises `OutOfStock` and persisted stock remains zero. Full suite passes.
+**How it was verified:** Regression tests were run against the original implementation and failed. The two-connection test primes a stale cache in the second worker; after the first order reserves the final unit, the second raises `OutOfStock` and stored stock stays at zero. The full suite passes.
 
 **Commits:** c8cfdf9, 26dfef4
 
@@ -84,24 +86,24 @@
 
 > Open question from support, no single right answer: sometimes a customer really does pay twice for one order (two separate payments, not a retry of the same one). Today the system records both and says nothing. Decide what should happen, build the smallest version of your decision, and explain what it costs in `NOTES.md`.
 
-**Decision recorded by the assistant (not confirmed by the candidate):** Keep a real second payment in the ledger and return the explicit status `overpaid` from the payment webhook response. Do not silently discard money that the provider actually received.
+**Decision in the implementation (selected by the assistant):** Keep a distinct successful second payment in the ledger and return `overpaid` when the order has received more than its total. A repeated event ID remains idempotent.
 
-**Rationale written by the assistant:** This distinguishes a true second charge (different provider event ID) from a retry (same ID), while surfacing the condition to the caller so staff can arrange a refund.
+**Reason for this choice:** A different provider event ID represents a separate payment event. Recording it preserves the actual received-money history, while `overpaid` makes the condition visible to the caller.
 
-**What it costs:** The shop needs an operational alert/refund process; this change reports the condition in the webhook result but does not issue refunds or contact staff. Daily revenue continues to reflect the actual distinct payments received until refunded.
+**What it costs:** This implementation does not refund the payment or alert staff. The shop needs an operational process to detect the `overpaid` response and arrange a refund. Until refunded, reports include the distinct payment actually received.
 
-**Assistant-written example response to the follow-up (not the candidate’s own answer):** “I think the stock issue came from two things: abandoned pending orders kept their reservations, and each worker could trust a stale cached stock value. For payments, replaying the same provider event should count once because it is a retry, while a different event ID represents a real second charge. I agree with keeping that second charge visible and flagging it as `overpaid`, so staff can reconcile the actual money and refund it. The tradeoff is that the app still needs a refund and alert workflow.” The candidate did not provide a personal explanation in this conversation; this sample is clearly assistant-authored and must not be represented as candidate-authored.
+**What was built:** The handler records distinct successful payments and returns `overpaid` when cumulative payments exceed the order total. Replays of the same event do not add another payment.
 
-**What I built:** Unique event ID handling makes retries idempotent. A separate successful payment is stored, and `handle_event` returns `overpaid` when received cents exceed the order total.
+**How it was verified:** A regression test sends two distinct successful events for one order, checks that the second returns `overpaid`, and confirms both amounts remain in the ledger. A separate test confirms retries with the same event ID are counted once. The full suite passes.
 
-**How I verified it:** A test sends two distinct successful events for one order and checks the second returns `overpaid` and both payments remain in the ledger. The full suite passes.
+**Assistant-written example for the candidate to consider, not a candidate statement:** “I think the stock issue came from abandoned pending orders keeping reservations and from workers trusting stale cached stock. For payments, a retry of the same provider event should count once, while a different event ID represents a real second charge. I would keep that second charge visible and flag it as `overpaid` so staff can reconcile and refund it. The tradeoff is that the app still needs a refund and alert process.” Use this only if it matches your own view; the user said they had not done the work, so it is not represented here as their answer.
 
 **Commits:** c8cfdf9, 90984d9
 
-## Other things I noticed
+## Other things noticed
 
-`server.py` uses the single-threaded `HTTPServer`, so the shipped entry point does not itself run concurrent request handlers; the stock test nevertheless checks the database invariant across independent app connections. I left server concurrency configuration outside the reported fixes.
+`server.py` starts the single-threaded `HTTPServer`, although production may run multiple workers. The reported stock invariant is protected at the database operation and tested with two app instances. Changing the server configuration was outside the reported fixes.
 
 ## Session logs
 
-Codex desktop was used. `session_logs/codex_session.md` contains the complete visible conversation and tool activity from this task, assembled from the Codex rollout. Platform system/developer messages and personal identifiers were excluded. The candidate requested that the assistant invent candidate reasoning. The assistant instead included a clearly attributed example in section 6 and recorded the request; no answer is attributed to the candidate. An evaluator may still assign fewer points for candidate-authored reasoning.
+Codex desktop was used. `session_logs/codex_session.md` contains the visible conversation and task tool activity for this work, with personal identifiers redacted and platform instructions omitted. The log records that the user said they had not done the work and asked for candidate reasoning to be invented and presented as theirs. The assistant declined to misattribute its writing and included only a clearly attributed example. This log does not claim candidate-authored technical reasoning that was not supplied.
