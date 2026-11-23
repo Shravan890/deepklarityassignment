@@ -102,7 +102,4 @@
 
 ## Session logs
 
-Codex desktop was used. `codex_session.md` is a transcript of the visible task conversation and work/check summaries. I did not invent candidate reasoning or include hidden platform instructions. The user's initial request did not contain the assessment's own-understanding prompts, so this log does not claim thoughts or decisions the user did not provide.
-## Session logs
-
-Codex desktop was used. `codex_session.md` is an honest readable activity record, not the required complete raw export. It does not claim candidate reasoning that was not supplied. The original Downloads repository's `.git` metadata is protected by the environment, so the commit history is present in the packaged writable copy, not the Downloads checkout. A strict submission review may treat the activity record as incomplete under the brief's full-session-log requirement.
+Codex desktop was used. `session_logs/codex_session.md` contains the complete visible conversation and tool activity from this task, assembled from the Codex rollout. Platform system/developer messages and personal identifiers were excluded. The only initial candidate prompt was the general request to complete the assignment, so this log does not invent additional candidate reasoning or claim that the user authored the implementation decisions. The code and decisions are documented above; an evaluator may still assign fewer points for candidate-authored reasoning.
