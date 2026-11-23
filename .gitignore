@@ -1,2 +1,6 @@
-__pycache__/
 *.db
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.vercel/

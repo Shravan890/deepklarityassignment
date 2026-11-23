@@ -9,11 +9,11 @@ from urllib.parse import urlsplit
 from tillpoint import db
 from tillpoint.api import App, dumps
 
-WEB_ROOT = Path(__file__).resolve().parent / "web"
+WEB_ROOT = Path(__file__).resolve().parent
 WEB_ROUTES = {
     "/": ("index.html", "text/html; charset=utf-8"),
-    "/assets/styles.css": ("styles.css", "text/css; charset=utf-8"),
-    "/assets/app.js": ("app.js", "text/javascript; charset=utf-8"),
+    "/assets/styles.css": ("assets/styles.css", "text/css; charset=utf-8"),
+    "/assets/app.js": ("assets/app.js", "text/javascript; charset=utf-8"),
     "/favicon.svg": ("favicon.svg", "image/svg+xml"),
 }
 
@@ -29,7 +29,8 @@ def make_handler(app):
                 data = (WEB_ROOT / filename).read_bytes()
                 status = 200
             else:
-                status, payload = app.handle(self.command, request_path, body)
+                api_path = request_path[4:] if request_path.startswith("/api/") else request_path
+                status, payload = app.handle(self.command, api_path, body)
                 data = dumps(payload).encode()
                 content_type = "application/json; charset=utf-8"
             self.send_response(status)

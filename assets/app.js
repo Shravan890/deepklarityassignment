@@ -21,7 +21,7 @@ async function loadProducts() {
   message.hidden = true;
   $("#product-grid").innerHTML = "";
   try {
-    const response = await fetch("/products", { headers: { Accept: "application/json" } });
+    const response = await fetch("/api/products", { headers: { Accept: "application/json" } });
     const products = await response.json();
     if (!response.ok || !Array.isArray(products)) throw new Error(products.error || "Could not load products.");
     state.products = products;
@@ -133,7 +133,7 @@ async function placeOrder() {
       region: $("#region").value,
       coupon: $("#coupon").value.trim() || null,
     };
-    const response = await fetch("/orders", {
+    const response = await fetch("/api/orders", {
       method: "POST",
       headers: { "Content-Type": "application/json", Accept: "application/json" },
       body: JSON.stringify(payload),

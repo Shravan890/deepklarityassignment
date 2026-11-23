@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    { "source": "/api/products", "destination": "/api/index?route=/products" },
+    { "source": "/api/products/:sku", "destination": "/api/index?route=/products/:sku" },
+    { "source": "/api/orders", "destination": "/api/index?route=/orders" },
+    { "source": "/api/orders/:id/cancel", "destination": "/api/index?route=/orders/:id/cancel" },
+    { "source": "/api/orders/:id", "destination": "/api/index?route=/orders/:id" },
+    { "source": "/api/webhooks/payments", "destination": "/api/index?route=/webhooks/payments" },
+    { "source": "/api/reports/daily/:day", "destination": "/api/index?route=/reports/daily/:day" }
+  ]
+}
