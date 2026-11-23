@@ -39,6 +39,13 @@ class RegressionTest(unittest.TestCase):
         self.assertEqual(self.payment(order, "evt2", 1000), "overpaid")
         self.assertEqual(self.app.payments.paid_cents(order["id"]), 2000)
 
+    def test_partial_payments_that_cross_total_mark_order_paid_and_overpaid(self):
+        order = self.app.orders.create("a", [("SKU", 1)])
+        self.assertEqual(self.payment(order, "partial1", 700), "pending")
+        self.assertEqual(self.payment(order, "partial2", 400), "overpaid")
+        self.assertEqual(self.app.orders.get(order["id"])["status"], "paid")
+        self.assertEqual(self.app.payments.paid_cents(order["id"]), 1100)
+
     def test_abandoned_checkout_cancel_releases_stock(self):
         order = self.app.orders.create("a", [("SKU", 3)])
         self.app.orders.cancel(order["id"])

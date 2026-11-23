@@ -37,11 +37,13 @@ class Payments:
             (order["id"], event["id"], amount, db.to_iso(now or db.utcnow())),
         )
         paid = self.paid_cents(order["id"])
-        if paid > order["total_cents"]:
-            return "overpaid"
         if order["status"] == "pending" and paid >= order["total_cents"]:
             self.conn.execute("UPDATE orders SET status = 'paid' WHERE id = ?", (order["id"],))
+            if paid > order["total_cents"]:
+                return "overpaid"
             return "paid"
+        if paid > order["total_cents"]:
+            return "overpaid"
         return order["status"]
 
     def paid_cents(self, order_id):
