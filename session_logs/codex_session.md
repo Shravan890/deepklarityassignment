@@ -35,33 +35,60 @@ Script completed
 Wall time 1.3 seconds
 Output:
 
-
-    Directory: C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission
-
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
-d----          23-11-2026    12:39                .git
-d----          23-11-2026    12:39                session_logs
-d----          23-11-2026    12:39                shelfmark
-d----          23-11-2026    12:39                tests
--a---          23-11-2026    12:39            423 CANDIDATE_BRIEF.md
--a---          23-11-2026    12:39           2479 NOTES.md
--a---          23-11-2026    12:39            675 README_EXAMPLE.md
-
-    Directory: C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment
-
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
-d----          23-11-2026    12:10                .git
-d----          23-11-2026    12:10                session_logs
-d----          23-11-2026    12:10                tests
-d----          23-11-2026    12:10                tillpoint
--a---          23-11-2026    12:10             18 .gitignore
--a---          23-11-2026    12:10           9434 CANDIDATE_BRIEF.md
--a---          23-11-2026    12:10           2876 NOTES.md
--a---          23-11-2026    12:10           1222 README.md
--a---          23-11-2026    12:10           1086 server.py
-
+
+
+    Directory: C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission
+
+
+
+Mode                 LastWriteTime         Length Name
+
+----                 -------------         ------ ----
+
+d----          23-11-2026    12:39                .git
+
+d----          23-11-2026    12:39                session_logs
+
+d----          23-11-2026    12:39                shelfmark
+
+d----          23-11-2026    12:39                tests
+
+-a---          23-11-2026    12:39            423 CANDIDATE_BRIEF.md
+
+-a---          23-11-2026    12:39           2479 NOTES.md
+
+-a---          23-11-2026    12:39            675 README_EXAMPLE.md
+
+
+
+    Directory: C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment
+
+
+
+Mode                 LastWriteTime         Length Name
+
+----                 -------------         ------ ----
+
+d----          23-11-2026    12:10                .git
+
+d----          23-11-2026    12:10                session_logs
+
+d----          23-11-2026    12:10                tests
+
+d----          23-11-2026    12:10                tillpoint
+
+-a---          23-11-2026    12:10             18 .gitignore
+
+-a---          23-11-2026    12:10           9434 CANDIDATE_BRIEF.md
+
+-a---          23-11-2026    12:10           2876 NOTES.md
+
+-a---          23-11-2026    12:10           1222 README.md
+
+-a---          23-11-2026    12:10           1086 server.py
+
+
+
 
 ```
 
@@ -79,125 +106,244 @@ Script completed
 Wall time 1.2 seconds
 Output:
 
-
-FullName
---------                                                                                                               
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\CANDIDATE_BRIEF.md     
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\NOTES.md               
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\README_EXAMPLE.md      
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\COMMIT_EDITMSG    
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\config            
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\description       
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\HEAD              
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\index             
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\applypatch-…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\commit-msg.…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\fsmonitor-w…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\post-update…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\pre-applypa…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\pre-commit.…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\pre-merge-c…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\pre-push.sa…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\pre-rebase.…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\pre-receive…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\prepare-com…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\push-to-che…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\update.samp…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\info\exclude      
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\logs\HEAD         
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\logs\refs\heads\m…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\03\072d52…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\0e\ef074b…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\26\edf7b2…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\2f\b02234…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\34\b5168c…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\3e\bc4146…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\4c\943bc7…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\51\7637f2…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\67\ee652c…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\77\2c9cf5…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\77\40fa33…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\7d\c51243…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\90\889133…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\94\9ba693…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\ad\036256…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\ad\3f5ec7…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\ad\708e82…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\b8\9b4f6f…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\bc\1074a3…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\d9\e6c73c…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\e0\23e395…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\e6\9de29b…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\ed\af91c8…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\f4\ed54ff…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\refs\heads\main   
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\session_logs\claude_co…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\session_logs\README.md 
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\session_logs\rollout-2…
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\shelfmark\__init__.py  
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\shelfmark\dates.py     
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\tests\test_dates.py    
-C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\tests\test_renew.py    
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.gitignore           
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\CANDIDATE_BRIEF.md   
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\NOTES.md             
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\README.md            
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\server.py            
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\COMMIT_EDITMSG  
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\config          
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\description     
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\HEAD            
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\index           
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\applypatc…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\commit-ms…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\fsmonitor…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\post-upda…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\pre-apply…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\pre-commi…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\pre-merge…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\pre-push.…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\pre-rebas…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\pre-recei…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\prepare-c…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\push-to-c…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\update.sa…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\info\exclude    
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\logs\HEAD       
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\logs\refs\heads…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\16\f63a…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\1c\e43c…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\30\f107…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\33\92f5…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\34\d293…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\5b\7c52…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\5d\5fb6…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\60\8241…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\6b\90c4…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\70\c0fc…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\76\66ee…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\85\034c…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\b6\abf8…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\b8\cf52…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\b9\047f…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\c0\64a3…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\e6\9de2…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\ea\9967…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\f3\c224…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\f5\46d3…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\fc\c1c0…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\refs\heads\main 
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\session_logs\README.…
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\__init__.py    
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\test_orders.py 
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\__init__.py
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\api.py     
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\catalog.py 
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\db.py      
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\orders.py  
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\payments.py
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\pricing.py 
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\reports.py 
-
+
+
+FullName
+
+--------                                                                                                               
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\CANDIDATE_BRIEF.md     
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\NOTES.md               
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\README_EXAMPLE.md      
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\COMMIT_EDITMSG    
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\config            
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\description       
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\HEAD              
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\index             
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\applypatch-…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\commit-msg.…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\fsmonitor-w…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\post-update…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\pre-applypa…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\pre-commit.…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\pre-merge-c…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\pre-push.sa…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\pre-rebase.…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\pre-receive…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\prepare-com…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\push-to-che…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\hooks\update.samp…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\info\exclude      
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\logs\HEAD         
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\logs\refs\heads\m…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\03\072d52…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\0e\ef074b…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\26\edf7b2…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\2f\b02234…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\34\b5168c…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\3e\bc4146…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\4c\943bc7…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\51\7637f2…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\67\ee652c…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\77\2c9cf5…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\77\40fa33…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\7d\c51243…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\90\889133…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\94\9ba693…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\ad\036256…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\ad\3f5ec7…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\ad\708e82…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\b8\9b4f6f…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\bc\1074a3…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\d9\e6c73c…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\e0\23e395…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\e6\9de29b…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\ed\af91c8…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\objects\f4\ed54ff…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\.git\refs\heads\main   
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\session_logs\claude_co…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\session_logs\README.md 
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\session_logs\rollout-2…
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\shelfmark\__init__.py  
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\shelfmark\dates.py     
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\tests\test_dates.py    
+
+C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission\tests\test_renew.py    
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.gitignore           
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\CANDIDATE_BRIEF.md   
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\NOTES.md             
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\README.md            
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\server.py            
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\COMMIT_EDITMSG  
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\config          
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\description     
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\HEAD            
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\index           
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\applypatc…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\commit-ms…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\fsmonitor…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\post-upda…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\pre-apply…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\pre-commi…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\pre-merge…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\pre-push.…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\pre-rebas…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\pre-recei…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\prepare-c…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\push-to-c…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\hooks\update.sa…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\info\exclude    
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\logs\HEAD       
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\logs\refs\heads…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\16\f63a…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\1c\e43c…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\30\f107…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\33\92f5…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\34\d293…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\5b\7c52…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\5d\5fb6…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\60\8241…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\6b\90c4…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\70\c0fc…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\76\66ee…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\85\034c…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\b6\abf8…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\b8\cf52…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\b9\047f…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\c0\64a3…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\e6\9de2…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\ea\9967…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\f3\c224…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\f5\46d3…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\fc\c1c0…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\refs\heads\main 
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\session_logs\README.…
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\__init__.py    
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\test_orders.py 
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\__init__.py
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\api.py     
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\catalog.py 
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\db.py      
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\orders.py  
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\payments.py
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\pricing.py 
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\reports.py 
+
+
+
 
 ```
 
@@ -215,9 +361,11 @@ Script completed
 Wall time 1.3 seconds
 Output:
 
-### ROOT C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission
+### ROOT C:\Users\<USER>\Downloads\jane_doe_submission-20261123T070840Z-1-001\jane_doe_submission
 
---- CANDIDATE_BRIEF.md ---
+
+--- CANDIDATE_BRIEF.md ---
+
 # Shelfmark (EXAMPLE ONLY)
 
 This is a made-up app used to show the submission format. It is not your assignment.
@@ -226,9 +374,11 @@ This is a made-up app used to show the submission format. It is not your assignm
 1. Renewing a book due on 31 January crashes the page.
 2. Searching for part of a title ("garden") finds nothing; only the exact full title works.
 3. Open question: should a renewal be allowed if the book is already overdue? Decide, build the smallest version, explain the cost in `NOTES.md`.
-
 
---- NOTES.md ---
+
+
+--- NOTES.md ---
+
 # NOTES
 
 ## 1. Report
@@ -286,9 +436,11 @@ This is a made-up app used to show the submission format. It is not your assignm
 ## Session logs
 
 Claude Code for the fix (`session_logs/claude_code_session.jsonl`, copied from `~/.claude/projects/`), and one short Codex session (`session_logs/rollout-2026-11-20T11-00-00-example.jsonl`, copied from `~/.codex/sessions/2026/11/20/`).
-
 
---- README_EXAMPLE.md ---
+
+
+--- README_EXAMPLE.md ---
+
 # Example submission (format only)
 
 This is what a returned submission looks like. It is for a made-up app called Shelfmark, not your assignment,
@@ -301,23 +453,32 @@ What to notice:
   a Claude Code `.jsonl` copied from `~/.claude/projects/`, and a Codex rollout `.jsonl` copied from `~/.codex/sessions/`.
 
 Delete this README in your own submission.
-
 
---- session_logs\claude_code_session.jsonl ---
-[binary/other]
 
---- session_logs\README.md ---
+
+--- session_logs\claude_code_session.jsonl ---
+
+[binary/other]
+
+
+--- session_logs\README.md ---
+
 # session_logs/
 
 Put the full export of every AI session you used for this assignment in this folder, next to this file.
-
 
---- session_logs\rollout-2026-11-20T11-00-00-example.jsonl ---
-[binary/other]
 
---- shelfmark\__init__.py ---
 
---- shelfmark\dates.py ---
+--- session_logs\rollout-2026-11-20T11-00-00-example.jsonl ---
+
+[binary/other]
+
+
+--- shelfmark\__init__.py ---
+
+
+--- shelfmark\dates.py ---
+
 """Due dates for borrowed books."""
 from datetime import date, timedelta
 
@@ -335,9 +496,11 @@ def renew(due: date) -> date:
 
 def search(titles, query):
     return [t for t in titles if t.lower() == query.lower()]
-
 
---- tests\test_dates.py ---
+
+
+--- tests\test_dates.py ---
+
 import unittest
 from datetime import date
 from shelfmark.dates import due_date
@@ -346,9 +509,11 @@ from shelfmark.dates import due_date
 class DueDate(unittest.TestCase):
     def test_two_weeks(self):
         self.assertEqual(due_date(date(2026, 3, 1)), date(2026, 3, 15))
-
 
---- tests\test_renew.py ---
+
+
+--- tests\test_renew.py ---
+
 import unittest
 from datetime import date
 from shelfmark.dates import renew
@@ -360,13 +525,18 @@ class Renew(unittest.TestCase):
 
     def test_renew_in_december_rolls_the_year(self):
         self.assertEqual(renew(date(2026, 12, 10)), date(2027, 1, 10))
-
-### ROOT C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment
 
---- .gitignore ---
-[binary/other]
 
---- CANDIDATE_BRIEF.md ---
+### ROOT C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment
+
+
+--- .gitignore ---
+
+[binary/other]
+
+
+--- CANDIDATE_BRIEF.md ---
+
 # Engineering Assessment
 
 ## Task
@@ -467,9 +637,11 @@ Put every session you used into `session_logs/` at the repo root, from the first
 **No paid AI plan?** OpenCode (opencode.ai) has free models: run `opencode models` and pick one whose name ends in `-free`. They are rate-limited and change from time to time; signing in with `opencode auth login` raises the limits.
 
 NOTE: A submission would be incomplete without `session_logs/` and `NOTES.md`. We cannot grade it. Ensure those exist and are complete before you submit.
-
 
---- NOTES.md ---
+
+
+--- NOTES.md ---
+
 # NOTES
 
 Fill in every field below before you submit. We read this file first: a submission with an empty field is not graded.
@@ -583,9 +755,11 @@ TODO: fill in
 Which AI tools you used, and one line per file in `session_logs/`.
 
 TODO: fill in
-
 
---- README.md ---
+
+
+--- README.md ---
+
 # Tillpoint
 
 A small order desk for a shop: a product catalog, orders with coupons and sales tax, payment webhooks and sales reports. Python 3.10+, standard library only, SQLite for storage.
@@ -625,9 +799,11 @@ tillpoint/reports.py   daily sales, top products
 tillpoint/api.py       JSON API
 server.py              HTTP server
 ```
-
 
---- server.py ---
+
+
+--- server.py ---
+
 """Run the API: python3 server.py [db-file] [port]"""
 import json
 import sys
@@ -658,9 +834,11 @@ if __name__ == "__main__":
     path = sys.argv[1] if len(sys.argv) > 1 else "tillpoint.db"
     port = int(sys.argv[2]) if len(sys.argv) > 2 else 8000
     HTTPServer(("127.0.0.1", port), make_handler(App(db.connect(path)))).serve_forever()
-
 
---- session_logs\README.md ---
+
+
+--- session_logs\README.md ---
+
 # session_logs/
 
 Put the full export of every AI session you used for this assignment in this folder, next to this file.
@@ -670,11 +848,14 @@ Put the full export of every AI session you used for this assignment in this fol
 - From the first prompt to the last. Do not edit or shorten them; remove only secrets, API keys and personal data.
 
 A submission with no session log in this folder is not graded. You can leave this README here.
-
 
---- tests\__init__.py ---
 
---- tests\test_orders.py ---
+
+--- tests\__init__.py ---
+
+
+--- tests\test_orders.py ---
+
 import unittest
 from datetime import datetime, timezone
 
@@ -736,13 +917,17 @@ class OrderDeskTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
 
---- tillpoint\__init__.py ---
+
+
+--- tillpoint\__init__.py ---
+
 """Tillpoint: a small order desk for a shop. Catalog, orders, payments, reports."""
-
 
---- tillpoint\api.py ---
+
+
+--- tillpoint\api.py ---
+
 """A tiny JSON API over the order desk. handle() is the whole surface; server.py puts it on a socket."""
 import json
 import re
@@ -798,9 +983,11 @@ class App:
 
 def dumps(payload):
     return json.dumps(payload, sort_keys=True)
-
 
---- tillpoint\catalog.py ---
+
+
+--- tillpoint\catalog.py ---
+
 """Product catalog with a per-process read cache."""
 from dataclasses import dataclass
 
@@ -865,9 +1052,11 @@ class Catalog:
         """Put qty units back into stock."""
         self.conn.execute("UPDATE products SET stock = stock + ? WHERE sku = ?", (qty, sku))
         self._cache.pop(sku, None)
-
 
---- tillpoint\db.py ---
+
+
+--- tillpoint\db.py ---
+
 """SQLite storage. All money is integer cents; all timestamps are UTC ISO-8601 strings."""
 import sqlite3
 from datetime import datetime, timezone
@@ -935,9 +1124,11 @@ def to_iso(dt):
 
 def from_iso(text):
     return datetime.strptime(text, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
-
 
---- tillpoint\orders.py ---
+
+
+--- tillpoint\orders.py ---
+
 """Creating, cancelling and listing orders."""
 from . import db, pricing
 from .catalog import Catalog
@@ -1035,9 +1226,11 @@ class Orders:
         if row is None:
             raise pricing.CouponRejected(f"unknown coupon {code}")
         return row
-
 
---- tillpoint\payments.py ---
+
+
+--- tillpoint\payments.py ---
+
 """Payment provider webhooks. The provider retries a delivery until it gets a 2xx, so events can repeat."""
 from . import db
 
@@ -1073,9 +1266,11 @@ class Payments:
             "SELECT COALESCE(SUM(amount_cents), 0) AS paid FROM payments WHERE order_id = ?", (order_id,)
         ).fetchone()
         return row["paid"]
-
 
---- tillpoint\pricing.py ---
+
+
+--- tillpoint\pricing.py ---
+
 """Order maths: subtotal, coupon discount, tax, total. Integer cents throughout."""
 
 # Sales tax in basis points (1/100 of a percent) by region.
@@ -1127,9 +1322,11 @@ def price_order(lines, region, coupon=None):
         "tax_cents": tax,
         "total_cents": sub - discount + tax,
     }
-
 
---- tillpoint\reports.py ---
+
+
+--- tillpoint\reports.py ---
+
 """Sales reports for the shop owner."""
 from datetime import datetime, timedelta, timezone
 
@@ -1163,7 +1360,8 @@ def top_products(conn, limit=5):
         (limit,),
     ).fetchall()
     return [dict(r) for r in rows]
-
+
+
 
 ```
 
@@ -1203,19 +1401,32 @@ Wall time 1.1 seconds
 Output:
 
 70c0fce Initial commit
-Python 3.11.9
-test_cancel_paid_order_restocks (test_orders.OrderDeskTest.test_cancel_paid_order_restocks) ... ok
-test_coupon_takes_ten_percent (test_orders.OrderDeskTest.test_coupon_takes_ten_percent) ... ok
-test_daily_sales (test_orders.OrderDeskTest.test_daily_sales) ... ok
-test_order_totals_with_tax (test_orders.OrderDeskTest.test_order_totals_with_tax) ... ok
-test_out_of_stock (test_orders.OrderDeskTest.test_out_of_stock) ... ok
-test_payment_marks_order_paid (test_orders.OrderDeskTest.test_payment_marks_order_paid) ... ok
-test_price_change (test_orders.OrderDeskTest.test_price_change) ... ok
-
-----------------------------------------------------------------------
-Ran 7 tests in 0.016s
-
-OK
+Python 3.11.9
+
+test_cancel_paid_order_restocks (test_orders.OrderDeskTest.test_cancel_paid_order_restocks) ... ok
+
+test_coupon_takes_ten_percent (test_orders.OrderDeskTest.test_coupon_takes_ten_percent) ... ok
+
+test_daily_sales (test_orders.OrderDeskTest.test_daily_sales) ... ok
+
+test_order_totals_with_tax (test_orders.OrderDeskTest.test_order_totals_with_tax) ... ok
+
+test_out_of_stock (test_orders.OrderDeskTest.test_out_of_stock) ... ok
+
+test_payment_marks_order_paid (test_orders.OrderDeskTest.test_payment_marks_order_paid) ... ok
+
+test_price_change (test_orders.OrderDeskTest.test_price_change) ... ok
+
+
+
+----------------------------------------------------------------------
+
+Ran 7 tests in 0.016s
+
+
+
+OK
+
 
 ```
 
@@ -1233,68 +1444,130 @@ Script completed
 Wall time 1.4 seconds
 Output:
 
-test_abandoned_checkout_cancel_releases_stock (tests.test_regressions.RegressionTest.test_abandoned_checkout_cancel_releases_stock) ... FAIL
-test_competing_workers_cannot_oversell (tests.test_regressions.RegressionTest.test_competing_workers_cannot_oversell) ... FAIL
-test_coupon_reduces_taxable_amount (tests.test_regressions.RegressionTest.test_coupon_reduces_taxable_amount) ... FAIL
-test_daily_report_uses_shop_local_offset (tests.test_regressions.RegressionTest.test_daily_report_uses_shop_local_offset) ... FAIL
-test_duplicate_webhook_is_idempotent_and_overpayment_rejected (tests.test_regressions.RegressionTest.test_duplicate_webhook_is_idempotent_and_overpayment_rejected) ... FAIL
-test_second_distinct_payment_is_recorded_and_reported_as_overpaid (tests.test_regressions.RegressionTest.test_second_distinct_payment_is_recorded_and_reported_as_overpaid) ... FAIL
-
-======================================================================
-FAIL: test_abandoned_checkout_cancel_releases_stock (tests.test_regressions.RegressionTest.test_abandoned_checkout_cancel_releases_stock)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\test_regressions.py", line 45, in test_abandoned_checkout_cancel_releases_stock
-    self.assertEqual(self.app.catalog.get_product("SKU").stock, 5)
-AssertionError: 2 != 5
-
-======================================================================
-FAIL: test_competing_workers_cannot_oversell (tests.test_regressions.RegressionTest.test_competing_workers_cannot_oversell)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\test_regressions.py", line 70, in test_competing_workers_cannot_oversell
-    with self.assertRaises(OutOfStock):
-AssertionError: OutOfStock not raised
-
-======================================================================
-FAIL: test_coupon_reduces_taxable_amount (tests.test_regressions.RegressionTest.test_coupon_reduces_taxable_amount)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\test_regressions.py", line 50, in test_coupon_reduces_taxable_amount
-    self.assertEqual(order["tax_cents"], 65)
-AssertionError: 73 != 65
-
-======================================================================
-FAIL: test_daily_report_uses_shop_local_offset (tests.test_regressions.RegressionTest.test_daily_report_uses_shop_local_offset)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\test_regressions.py", line 57, in test_daily_report_uses_shop_local_offset
-    self.assertEqual(reports.daily_sales(self.conn, "2025-03-10", 330)["revenue_cents"], 1000)
-AssertionError: 0 != 1000
-
-======================================================================
-FAIL: test_duplicate_webhook_is_idempotent_and_overpayment_rejected (tests.test_regressions.RegressionTest.test_duplicate_webhook_is_idempotent_and_overpayment_rejected)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\test_regressions.py", line 31, in test_duplicate_webhook_is_idempotent_and_overpayment_rejected
-    self.assertEqual(self.app.payments.paid_cents(order["id"]), 1000)
-AssertionError: 2000 != 1000
-
-======================================================================
-FAIL: test_second_distinct_payment_is_recorded_and_reported_as_overpaid (tests.test_regressions.RegressionTest.test_second_distinct_payment_is_recorded_and_reported_as_overpaid)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\test_regressions.py", line 39, in test_second_distinct_payment_is_recorded_and_reported_as_overpaid
-    self.assertEqual(self.payment(order, "evt2", 1000), "overpaid")
-AssertionError: 'paid' != 'overpaid'
-- paid
-+ overpaid
-
-
-----------------------------------------------------------------------
-Ran 6 tests in 0.050s
-
-FAILED (failures=6)
+test_abandoned_checkout_cancel_releases_stock (tests.test_regressions.RegressionTest.test_abandoned_checkout_cancel_releases_stock) ... FAIL
+
+test_competing_workers_cannot_oversell (tests.test_regressions.RegressionTest.test_competing_workers_cannot_oversell) ... FAIL
+
+test_coupon_reduces_taxable_amount (tests.test_regressions.RegressionTest.test_coupon_reduces_taxable_amount) ... FAIL
+
+test_daily_report_uses_shop_local_offset (tests.test_regressions.RegressionTest.test_daily_report_uses_shop_local_offset) ... FAIL
+
+test_duplicate_webhook_is_idempotent_and_overpayment_rejected (tests.test_regressions.RegressionTest.test_duplicate_webhook_is_idempotent_and_overpayment_rejected) ... FAIL
+
+test_second_distinct_payment_is_recorded_and_reported_as_overpaid (tests.test_regressions.RegressionTest.test_second_distinct_payment_is_recorded_and_reported_as_overpaid) ... FAIL
+
+
+
+======================================================================
+
+FAIL: test_abandoned_checkout_cancel_releases_stock (tests.test_regressions.RegressionTest.test_abandoned_checkout_cancel_releases_stock)
+
+----------------------------------------------------------------------
+
+Traceback (most recent call last):
+
+  File "C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\test_regressions.py", line 45, in test_abandoned_checkout_cancel_releases_stock
+
+    self.assertEqual(self.app.catalog.get_product("SKU").stock, 5)
+
+AssertionError: 2 != 5
+
+
+
+======================================================================
+
+FAIL: test_competing_workers_cannot_oversell (tests.test_regressions.RegressionTest.test_competing_workers_cannot_oversell)
+
+----------------------------------------------------------------------
+
+Traceback (most recent call last):
+
+  File "C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\test_regressions.py", line 70, in test_competing_workers_cannot_oversell
+
+    with self.assertRaises(OutOfStock):
+
+AssertionError: OutOfStock not raised
+
+
+
+======================================================================
+
+FAIL: test_coupon_reduces_taxable_amount (tests.test_regressions.RegressionTest.test_coupon_reduces_taxable_amount)
+
+----------------------------------------------------------------------
+
+Traceback (most recent call last):
+
+  File "C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\test_regressions.py", line 50, in test_coupon_reduces_taxable_amount
+
+    self.assertEqual(order["tax_cents"], 65)
+
+AssertionError: 73 != 65
+
+
+
+======================================================================
+
+FAIL: test_daily_report_uses_shop_local_offset (tests.test_regressions.RegressionTest.test_daily_report_uses_shop_local_offset)
+
+----------------------------------------------------------------------
+
+Traceback (most recent call last):
+
+  File "C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\test_regressions.py", line 57, in test_daily_report_uses_shop_local_offset
+
+    self.assertEqual(reports.daily_sales(self.conn, "2025-03-10", 330)["revenue_cents"], 1000)
+
+AssertionError: 0 != 1000
+
+
+
+======================================================================
+
+FAIL: test_duplicate_webhook_is_idempotent_and_overpayment_rejected (tests.test_regressions.RegressionTest.test_duplicate_webhook_is_idempotent_and_overpayment_rejected)
+
+----------------------------------------------------------------------
+
+Traceback (most recent call last):
+
+  File "C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\test_regressions.py", line 31, in test_duplicate_webhook_is_idempotent_and_overpayment_rejected
+
+    self.assertEqual(self.app.payments.paid_cents(order["id"]), 1000)
+
+AssertionError: 2000 != 1000
+
+
+
+======================================================================
+
+FAIL: test_second_distinct_payment_is_recorded_and_reported_as_overpaid (tests.test_regressions.RegressionTest.test_second_distinct_payment_is_recorded_and_reported_as_overpaid)
+
+----------------------------------------------------------------------
+
+Traceback (most recent call last):
+
+  File "C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\test_regressions.py", line 39, in test_second_distinct_payment_is_recorded_and_reported_as_overpaid
+
+    self.assertEqual(self.payment(order, "evt2", 1000), "overpaid")
+
+AssertionError: 'paid' != 'overpaid'
+
+- paid
+
++ overpaid
+
+
+
+
+
+----------------------------------------------------------------------
+
+Ran 6 tests in 0.050s
+
+
+
+FAILED (failures=6)
+
 
 ```
 
@@ -1353,32 +1626,58 @@ Script completed
 Wall time 1.1 seconds
 Output:
 
-test_cancel_paid_order_restocks (test_orders.OrderDeskTest.test_cancel_paid_order_restocks) ... ok
-test_coupon_takes_ten_percent (test_orders.OrderDeskTest.test_coupon_takes_ten_percent) ... ok
-test_daily_sales (test_orders.OrderDeskTest.test_daily_sales) ... ok
-test_order_totals_with_tax (test_orders.OrderDeskTest.test_order_totals_with_tax) ... ok
-test_out_of_stock (test_orders.OrderDeskTest.test_out_of_stock) ... ok
-test_payment_marks_order_paid (test_orders.OrderDeskTest.test_payment_marks_order_paid) ... ok
-test_price_change (test_orders.OrderDeskTest.test_price_change) ... ok
-test_abandoned_checkout_cancel_releases_stock (test_regressions.RegressionTest.test_abandoned_checkout_cancel_releases_stock) ... ok
-test_competing_workers_cannot_oversell (test_regressions.RegressionTest.test_competing_workers_cannot_oversell) ... ok
-test_coupon_reduces_taxable_amount (test_regressions.RegressionTest.test_coupon_reduces_taxable_amount) ... ok
-test_daily_report_uses_shop_local_offset (test_regressions.RegressionTest.test_daily_report_uses_shop_local_offset) ... ok
-test_duplicate_webhook_is_idempotent_and_overpayment_rejected (test_regressions.RegressionTest.test_duplicate_webhook_is_idempotent_and_overpayment_rejected) ... FAIL
-test_second_distinct_payment_is_recorded_and_reported_as_overpaid (test_regressions.RegressionTest.test_second_distinct_payment_is_recorded_and_reported_as_overpaid) ... ok
-
-======================================================================
-FAIL: test_duplicate_webhook_is_idempotent_and_overpayment_rejected (test_regressions.RegressionTest.test_duplicate_webhook_is_idempotent_and_overpayment_rejected)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\test_regressions.py", line 32, in test_duplicate_webhook_is_idempotent_and_overpayment_rejected
-    with self.assertRaises(PaymentError):
-AssertionError: PaymentError not raised
-
-----------------------------------------------------------------------
-Ran 13 tests in 0.043s
-
-FAILED (failures=1)
+test_cancel_paid_order_restocks (test_orders.OrderDeskTest.test_cancel_paid_order_restocks) ... ok
+
+test_coupon_takes_ten_percent (test_orders.OrderDeskTest.test_coupon_takes_ten_percent) ... ok
+
+test_daily_sales (test_orders.OrderDeskTest.test_daily_sales) ... ok
+
+test_order_totals_with_tax (test_orders.OrderDeskTest.test_order_totals_with_tax) ... ok
+
+test_out_of_stock (test_orders.OrderDeskTest.test_out_of_stock) ... ok
+
+test_payment_marks_order_paid (test_orders.OrderDeskTest.test_payment_marks_order_paid) ... ok
+
+test_price_change (test_orders.OrderDeskTest.test_price_change) ... ok
+
+test_abandoned_checkout_cancel_releases_stock (test_regressions.RegressionTest.test_abandoned_checkout_cancel_releases_stock) ... ok
+
+test_competing_workers_cannot_oversell (test_regressions.RegressionTest.test_competing_workers_cannot_oversell) ... ok
+
+test_coupon_reduces_taxable_amount (test_regressions.RegressionTest.test_coupon_reduces_taxable_amount) ... ok
+
+test_daily_report_uses_shop_local_offset (test_regressions.RegressionTest.test_daily_report_uses_shop_local_offset) ... ok
+
+test_duplicate_webhook_is_idempotent_and_overpayment_rejected (test_regressions.RegressionTest.test_duplicate_webhook_is_idempotent_and_overpayment_rejected) ... FAIL
+
+test_second_distinct_payment_is_recorded_and_reported_as_overpaid (test_regressions.RegressionTest.test_second_distinct_payment_is_recorded_and_reported_as_overpaid) ... ok
+
+
+
+======================================================================
+
+FAIL: test_duplicate_webhook_is_idempotent_and_overpayment_rejected (test_regressions.RegressionTest.test_duplicate_webhook_is_idempotent_and_overpayment_rejected)
+
+----------------------------------------------------------------------
+
+Traceback (most recent call last):
+
+  File "C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\test_regressions.py", line 32, in test_duplicate_webhook_is_idempotent_and_overpayment_rejected
+
+    with self.assertRaises(PaymentError):
+
+AssertionError: PaymentError not raised
+
+
+
+----------------------------------------------------------------------
+
+Ran 13 tests in 0.043s
+
+
+
+FAILED (failures=1)
+
 
 ```
 
@@ -1396,32 +1695,58 @@ Script completed
 Wall time 1.6 seconds
 Output:
 
-test_cancel_paid_order_restocks (test_orders.OrderDeskTest.test_cancel_paid_order_restocks) ... ok
-test_coupon_takes_ten_percent (test_orders.OrderDeskTest.test_coupon_takes_ten_percent) ... ok
-test_daily_sales (test_orders.OrderDeskTest.test_daily_sales) ... ok
-test_order_totals_with_tax (test_orders.OrderDeskTest.test_order_totals_with_tax) ... ok
-test_out_of_stock (test_orders.OrderDeskTest.test_out_of_stock) ... ok
-test_payment_marks_order_paid (test_orders.OrderDeskTest.test_payment_marks_order_paid) ... ok
-test_price_change (test_orders.OrderDeskTest.test_price_change) ... ok
-test_abandoned_checkout_cancel_releases_stock (test_regressions.RegressionTest.test_abandoned_checkout_cancel_releases_stock) ... ok
-test_competing_workers_cannot_oversell (test_regressions.RegressionTest.test_competing_workers_cannot_oversell) ... ok
-test_coupon_reduces_taxable_amount (test_regressions.RegressionTest.test_coupon_reduces_taxable_amount) ... ok
-test_daily_report_uses_shop_local_offset (test_regressions.RegressionTest.test_daily_report_uses_shop_local_offset) ... ok
-test_duplicate_webhook_is_idempotent_and_overpayment_rejected (test_regressions.RegressionTest.test_duplicate_webhook_is_idempotent_and_overpayment_rejected) ... FAIL
-test_second_distinct_payment_is_recorded_and_reported_as_overpaid (test_regressions.RegressionTest.test_second_distinct_payment_is_recorded_and_reported_as_overpaid) ... ok
-
-======================================================================
-FAIL: test_duplicate_webhook_is_idempotent_and_overpayment_rejected (test_regressions.RegressionTest.test_duplicate_webhook_is_idempotent_and_overpayment_rejected)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\test_regressions.py", line 32, in test_duplicate_webhook_is_idempotent_and_overpayment_rejected
-    with self.assertRaises(PaymentError):
-AssertionError: PaymentError not raised
-
-----------------------------------------------------------------------
-Ran 13 tests in 0.046s
-
-FAILED (failures=1)
+test_cancel_paid_order_restocks (test_orders.OrderDeskTest.test_cancel_paid_order_restocks) ... ok
+
+test_coupon_takes_ten_percent (test_orders.OrderDeskTest.test_coupon_takes_ten_percent) ... ok
+
+test_daily_sales (test_orders.OrderDeskTest.test_daily_sales) ... ok
+
+test_order_totals_with_tax (test_orders.OrderDeskTest.test_order_totals_with_tax) ... ok
+
+test_out_of_stock (test_orders.OrderDeskTest.test_out_of_stock) ... ok
+
+test_payment_marks_order_paid (test_orders.OrderDeskTest.test_payment_marks_order_paid) ... ok
+
+test_price_change (test_orders.OrderDeskTest.test_price_change) ... ok
+
+test_abandoned_checkout_cancel_releases_stock (test_regressions.RegressionTest.test_abandoned_checkout_cancel_releases_stock) ... ok
+
+test_competing_workers_cannot_oversell (test_regressions.RegressionTest.test_competing_workers_cannot_oversell) ... ok
+
+test_coupon_reduces_taxable_amount (test_regressions.RegressionTest.test_coupon_reduces_taxable_amount) ... ok
+
+test_daily_report_uses_shop_local_offset (test_regressions.RegressionTest.test_daily_report_uses_shop_local_offset) ... ok
+
+test_duplicate_webhook_is_idempotent_and_overpayment_rejected (test_regressions.RegressionTest.test_duplicate_webhook_is_idempotent_and_overpayment_rejected) ... FAIL
+
+test_second_distinct_payment_is_recorded_and_reported_as_overpaid (test_regressions.RegressionTest.test_second_distinct_payment_is_recorded_and_reported_as_overpaid) ... ok
+
+
+
+======================================================================
+
+FAIL: test_duplicate_webhook_is_idempotent_and_overpayment_rejected (test_regressions.RegressionTest.test_duplicate_webhook_is_idempotent_and_overpayment_rejected)
+
+----------------------------------------------------------------------
+
+Traceback (most recent call last):
+
+  File "C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\test_regressions.py", line 32, in test_duplicate_webhook_is_idempotent_and_overpayment_rejected
+
+    with self.assertRaises(PaymentError):
+
+AssertionError: PaymentError not raised
+
+
+
+----------------------------------------------------------------------
+
+Ran 13 tests in 0.046s
+
+
+
+FAILED (failures=1)
+
 
 ```
 
@@ -1439,48 +1764,90 @@ Script completed
 Wall time 1.3 seconds
 Output:
 
-import os
-import tempfile
-import threading
-import unittest
-from datetime import datetime, timezone
-
-from tillpoint import db, reports
-from tillpoint.api import App
-from tillpoint.catalog import OutOfStock
-from tillpoint.payments import PaymentError
-
-
-class RegressionTest(unittest.TestCase):
-    def setUp(self):
-        self.conn = db.connect()
-        self.app = App(self.conn)
-        self.app.catalog.add_product("SKU", "Test", 1000, stock=5)
-        self.conn.execute("INSERT INTO coupons (code, kind, value) VALUES ('TEN', 'percent', 10)")
-
-    def tearDown(self):
-        self.conn.close()
-
-    def payment(self, order, event_id, amount, now=None):
-        return self.app.payments.handle_event({"id": event_id, "type": "payment.succeeded",
-                                                "order_id": order["id"], "amount_cents": amount}, now=now)
-
-    def test_duplicate_webhook_is_idempotent_and_overpayment_rejected(self):
-        order = self.app.orders.create("a", [("SKU", 1)])
-        self.assertEqual(self.payment(order, "evt", 1000), "paid")
-        self.assertEqual(self.payment(order, "evt", 1000), "paid")
-        self.assertEqual(self.app.payments.paid_cents(order["id"]), 1000)
-        with self.assertRaises(PaymentError):
-            self.payment(order, "evt_extra", 1)
-        self.assertEqual(self.app.payments.paid_cents(order["id"]), 1000)
-
-    def test_second_distinct_payment_is_recorded_and_reported_as_overpaid(self):
-        order = self.app.orders.create("a", [("SKU", 1)])
-        self.assertEqual(self.payment(order, "evt1", 1000), "paid")
-        self.assertEqual(self.payment(order, "evt2", 1000), "overpaid")
-        self.assertEqual(self.app.payments.paid_cents(order["id"]), 2000)
-
-    def test_abandoned_checkout_cancel_releases_stock(self):
+import os
+
+import tempfile
+
+import threading
+
+import unittest
+
+from datetime import datetime, timezone
+
+
+
+from tillpoint import db, reports
+
+from tillpoint.api import App
+
+from tillpoint.catalog import OutOfStock
+
+from tillpoint.payments import PaymentError
+
+
+
+
+
+class RegressionTest(unittest.TestCase):
+
+    def setUp(self):
+
+        self.conn = db.connect()
+
+        self.app = App(self.conn)
+
+        self.app.catalog.add_product("SKU", "Test", 1000, stock=5)
+
+        self.conn.execute("INSERT INTO coupons (code, kind, value) VALUES ('TEN', 'percent', 10)")
+
+
+
+    def tearDown(self):
+
+        self.conn.close()
+
+
+
+    def payment(self, order, event_id, amount, now=None):
+
+        return self.app.payments.handle_event({"id": event_id, "type": "payment.succeeded",
+
+                                                "order_id": order["id"], "amount_cents": amount}, now=now)
+
+
+
+    def test_duplicate_webhook_is_idempotent_and_overpayment_rejected(self):
+
+        order = self.app.orders.create("a", [("SKU", 1)])
+
+        self.assertEqual(self.payment(order, "evt", 1000), "paid")
+
+        self.assertEqual(self.payment(order, "evt", 1000), "paid")
+
+        self.assertEqual(self.app.payments.paid_cents(order["id"]), 1000)
+
+        with self.assertRaises(PaymentError):
+
+            self.payment(order, "evt_extra", 1)
+
+        self.assertEqual(self.app.payments.paid_cents(order["id"]), 1000)
+
+
+
+    def test_second_distinct_payment_is_recorded_and_reported_as_overpaid(self):
+
+        order = self.app.orders.create("a", [("SKU", 1)])
+
+        self.assertEqual(self.payment(order, "evt1", 1000), "paid")
+
+        self.assertEqual(self.payment(order, "evt2", 1000), "overpaid")
+
+        self.assertEqual(self.app.payments.paid_cents(order["id"]), 2000)
+
+
+
+    def test_abandoned_checkout_cancel_releases_stock(self):
+
 
 ```
 
@@ -1498,24 +1865,42 @@ Script completed
 Wall time 1.6 seconds
 Output:
 
-test_cancel_paid_order_restocks (test_orders.OrderDeskTest.test_cancel_paid_order_restocks) ... ok
-test_coupon_takes_ten_percent (test_orders.OrderDeskTest.test_coupon_takes_ten_percent) ... ok
-test_daily_sales (test_orders.OrderDeskTest.test_daily_sales) ... ok
-test_order_totals_with_tax (test_orders.OrderDeskTest.test_order_totals_with_tax) ... ok
-test_out_of_stock (test_orders.OrderDeskTest.test_out_of_stock) ... ok
-test_payment_marks_order_paid (test_orders.OrderDeskTest.test_payment_marks_order_paid) ... ok
-test_price_change (test_orders.OrderDeskTest.test_price_change) ... ok
-test_abandoned_checkout_cancel_releases_stock (test_regressions.RegressionTest.test_abandoned_checkout_cancel_releases_stock) ... ok
-test_competing_workers_cannot_oversell (test_regressions.RegressionTest.test_competing_workers_cannot_oversell) ... ok
-test_coupon_reduces_taxable_amount (test_regressions.RegressionTest.test_coupon_reduces_taxable_amount) ... ok
-test_daily_report_uses_shop_local_offset (test_regressions.RegressionTest.test_daily_report_uses_shop_local_offset) ... ok
-test_duplicate_webhook_is_idempotent_and_overpayment_rejected (test_regressions.RegressionTest.test_duplicate_webhook_is_idempotent_and_overpayment_rejected) ... ok
-test_second_distinct_payment_is_recorded_and_reported_as_overpaid (test_regressions.RegressionTest.test_second_distinct_payment_is_recorded_and_reported_as_overpaid) ... ok
-
-----------------------------------------------------------------------
-Ran 13 tests in 0.056s
-
-OK
+test_cancel_paid_order_restocks (test_orders.OrderDeskTest.test_cancel_paid_order_restocks) ... ok
+
+test_coupon_takes_ten_percent (test_orders.OrderDeskTest.test_coupon_takes_ten_percent) ... ok
+
+test_daily_sales (test_orders.OrderDeskTest.test_daily_sales) ... ok
+
+test_order_totals_with_tax (test_orders.OrderDeskTest.test_order_totals_with_tax) ... ok
+
+test_out_of_stock (test_orders.OrderDeskTest.test_out_of_stock) ... ok
+
+test_payment_marks_order_paid (test_orders.OrderDeskTest.test_payment_marks_order_paid) ... ok
+
+test_price_change (test_orders.OrderDeskTest.test_price_change) ... ok
+
+test_abandoned_checkout_cancel_releases_stock (test_regressions.RegressionTest.test_abandoned_checkout_cancel_releases_stock) ... ok
+
+test_competing_workers_cannot_oversell (test_regressions.RegressionTest.test_competing_workers_cannot_oversell) ... ok
+
+test_coupon_reduces_taxable_amount (test_regressions.RegressionTest.test_coupon_reduces_taxable_amount) ... ok
+
+test_daily_report_uses_shop_local_offset (test_regressions.RegressionTest.test_daily_report_uses_shop_local_offset) ... ok
+
+test_duplicate_webhook_is_idempotent_and_overpayment_rejected (test_regressions.RegressionTest.test_duplicate_webhook_is_idempotent_and_overpayment_rejected) ... ok
+
+test_second_distinct_payment_is_recorded_and_reported_as_overpaid (test_regressions.RegressionTest.test_second_distinct_payment_is_recorded_and_reported_as_overpaid) ... ok
+
+
+
+----------------------------------------------------------------------
+
+Ran 13 tests in 0.056s
+
+
+
+OK
+
 
 ```
 
@@ -1703,7 +2088,8 @@ Script completed
 Wall time 1.0 seconds
 Output:
 
-Counter({('event_msg', 'item_completed', None): 47, ('response_item', 'reasoning', None): 24, ('token_usage_record', None, None): 23, ('response_item', 'custom_tool_call', None): 22, ('event_msg', 'token_count', None): 22, ('response_item', 'custom_tool_call_output', None): 21, ('response_item', 'message', 'developer'): 5, ('response_item', 'message', 'assistant'): 4, ('response_item', 'message', 'user'): 2, ('session_meta', None, None): 1, ('event_msg', 'task_started', None): 1, ('response_item', 'additional_tools', 'developer'): 1, ('world_state', None, None): 1, ('turn_context', None, None): 1, ('event_msg', 'thread_settings_applied', None): 1, ('response_item', 'function_call', None): 1, ('response_item', 'function_call_output', None): 1})
+Counter({('event_msg', 'item_completed', None): 47, ('response_item', 'reasoning', None): 24, ('token_usage_record', None, None): 23, ('response_item', 'custom_tool_call', None): 22, ('event_msg', 'token_count', None): 22, ('response_item', 'custom_tool_call_output', None): 21, ('response_item', 'message', 'developer'): 5, ('response_item', 'message', 'assistant'): 4, ('response_item', 'message', 'user'): 2, ('session_meta', None, None): 1, ('event_msg', 'task_started', None): 1, ('response_item', 'additional_tools', 'developer'): 1, ('world_state', None, None): 1, ('turn_context', None, None): 1, ('event_msg', 'thread_settings_applied', None): 1, ('response_item', 'function_call', None): 1, ('response_item', 'function_call_output', None): 1})
+
 
 ```
 
@@ -1729,24 +2115,42 @@ warning: in the working copy of 'session_logs/codex_session.md', LF will be repl
 [main 9754882] Document fixes decisions and verification
  2 files changed, 76 insertions(+), 46 deletions(-)
  create mode 100644 session_logs/codex_session.md
-test_cancel_paid_order_restocks (test_orders.OrderDeskTest.test_cancel_paid_order_restocks) ... ok
-test_coupon_takes_ten_percent (test_orders.OrderDeskTest.test_coupon_takes_ten_percent) ... ok
-test_daily_sales (test_orders.OrderDeskTest.test_daily_sales) ... ok
-test_order_totals_with_tax (test_orders.OrderDeskTest.test_order_totals_with_tax) ... ok
-test_out_of_stock (test_orders.OrderDeskTest.test_out_of_stock) ... ok
-test_payment_marks_order_paid (test_orders.OrderDeskTest.test_payment_marks_order_paid) ... ok
-test_price_change (test_orders.OrderDeskTest.test_price_change) ... ok
-test_abandoned_checkout_cancel_releases_stock (test_regressions.RegressionTest.test_abandoned_checkout_cancel_releases_stock) ... ok
-test_competing_workers_cannot_oversell (test_regressions.RegressionTest.test_competing_workers_cannot_oversell) ... ok
-test_coupon_reduces_taxable_amount (test_regressions.RegressionTest.test_coupon_reduces_taxable_amount) ... ok
-test_daily_report_uses_shop_local_offset (test_regressions.RegressionTest.test_daily_report_uses_shop_local_offset) ... ok
-test_duplicate_webhook_is_idempotent_and_overpayment_rejected (test_regressions.RegressionTest.test_duplicate_webhook_is_idempotent_and_overpayment_rejected) ... ok
-test_second_distinct_payment_is_recorded_and_reported_as_overpaid (test_regressions.RegressionTest.test_second_distinct_payment_is_recorded_and_reported_as_overpaid) ... ok
-
-----------------------------------------------------------------------
-Ran 13 tests in 0.057s
-
-OK
+test_cancel_paid_order_restocks (test_orders.OrderDeskTest.test_cancel_paid_order_restocks) ... ok
+
+test_coupon_takes_ten_percent (test_orders.OrderDeskTest.test_coupon_takes_ten_percent) ... ok
+
+test_daily_sales (test_orders.OrderDeskTest.test_daily_sales) ... ok
+
+test_order_totals_with_tax (test_orders.OrderDeskTest.test_order_totals_with_tax) ... ok
+
+test_out_of_stock (test_orders.OrderDeskTest.test_out_of_stock) ... ok
+
+test_payment_marks_order_paid (test_orders.OrderDeskTest.test_payment_marks_order_paid) ... ok
+
+test_price_change (test_orders.OrderDeskTest.test_price_change) ... ok
+
+test_abandoned_checkout_cancel_releases_stock (test_regressions.RegressionTest.test_abandoned_checkout_cancel_releases_stock) ... ok
+
+test_competing_workers_cannot_oversell (test_regressions.RegressionTest.test_competing_workers_cannot_oversell) ... ok
+
+test_coupon_reduces_taxable_amount (test_regressions.RegressionTest.test_coupon_reduces_taxable_amount) ... ok
+
+test_daily_report_uses_shop_local_offset (test_regressions.RegressionTest.test_daily_report_uses_shop_local_offset) ... ok
+
+test_duplicate_webhook_is_idempotent_and_overpayment_rejected (test_regressions.RegressionTest.test_duplicate_webhook_is_idempotent_and_overpayment_rejected) ... ok
+
+test_second_distinct_payment_is_recorded_and_reported_as_overpaid (test_regressions.RegressionTest.test_second_distinct_payment_is_recorded_and_reported_as_overpaid) ... ok
+
+
+
+----------------------------------------------------------------------
+
+Ran 13 tests in 0.057s
+
+
+
+OK
+
 9754882 Document fixes decisions and verification
 90984d9 Deduplicate webhooks and report overpayments
 520c341 Release stock from cancelled pending orders
@@ -1790,13 +2194,20 @@ Script completed
 Wall time 20.0 seconds
 Output:
 
-C:\Users\<USER>\Documents\Codex\2026-11-23\re\outputs\tillpoint_assignment_submission.zip 85935
-git entries: 76
-
-FullName                                                                                         Length
---------                                                                                         ------
-C:\Users\<USER>\Documents\Codex\2026-11-23\re\outputs\tillpoint_assignment_submission.zip  85935
-
+C:\Users\<USER>\Documents\Codex\2026-11-23\re\outputs\tillpoint_assignment_submission.zip 85935
+
+git entries: 76
+
+
+
+FullName                                                                                         Length
+
+--------                                                                                         ------
+
+C:\Users\<USER>\Documents\Codex\2026-11-23\re\outputs\tillpoint_assignment_submission.zip  85935
+
+
+
 
 ```
 
@@ -1870,7 +2281,8 @@ Script completed
 Wall time 1.0 seconds
 Output:
 
-created session_logs\codex_session.md bytes 106613 lines 340
+created session_logs\codex_session.md bytes 106613 lines 340
+
 
 ```
 
@@ -1883,15 +2295,24 @@ Output:
 
 [main d63275e] Include complete visible Codex session export
  2 files changed, 1842 insertions(+), 42 deletions(-)
-**Commits:** c8cfdf9, 90984d9
-
-## Other things I noticed
-
-`server.py` uses the single-threaded `HTTPServer`, so the shipped entry point does not itself run concurrent request handlers; the stock test nevertheless checks the database invariant across independent app connections. I left server concurrency configuration outside the reported fixes.
-
-## Session logs
-
-Codex desktop was used. `session_logs/codex_session.md` contains the complete visible conversation and tool activity from this task, assembled from the Codex rollout. Platform system/developer messages and personal identifiers were excluded. The only initial candidate prompt was the general request to complete the assignment, so this log does not invent additional candidate reasoning or claim that the user authored the implementation decisions. The code and decisions are documented above; an evaluator may still assign fewer points for candidate-authored reasoning.
+**Commits:** c8cfdf9, 90984d9
+
+
+
+## Other things I noticed
+
+
+
+`server.py` uses the single-threaded `HTTPServer`, so the shipped entry point does not itself run concurrent request handlers; the stock test nevertheless checks the database invariant across independent app connections. I left server concurrency configuration outside the reported fixes.
+
+
+
+## Session logs
+
+
+
+Codex desktop was used. `session_logs/codex_session.md` contains the complete visible conversation and tool activity from this task, assembled from the Codex rollout. Platform system/developer messages and personal identifiers were excluded. The only initial candidate prompt was the general request to complete the assignment, so this log does not invent additional candidate reasoning or claim that the user authored the implementation decisions. The code and decisions are documented above; an evaluator may still assign fewer points for candidate-authored reasoning.
+
 
 ```
 
@@ -1905,28 +2326,50 @@ Output:
 Warning: truncated output (original token count: 1080)
 Total output lines: 44
 
-107871 352
-
-session_logs\codex_session.md:10:## jane_doe_submission: 
-C:/Users/<USER>/Downloads/jane_doe_submission-20261123T070840Z-1-001/jane_doe_submission/
-session_logs\codex_session.md:12:## tillpoint_assignment: 
-C:/Users/<USER>/Downloads/tillpoint_assignment-20261123T063916Z-1-001/tillpoint_assignment/
-session_logs\codex_session.md:1596:const patch = "*** Begin Patch\n*** Update File: 
-C:/Users/<USER>/Downloads/tillpoint_assignment-20261123T063916Z-1-001/tillpoint_assignment/tillpoint/db.py\n@@\n-    
-event_id TEXT NOT NULL,\n+    event_id TEXT NOT NULL UNIQUE,\n*** Update File: 
-C:/Users/<USER>/Downloads/tillpoint_assignment-20261123T063916Z-1-001/tillpoint_assignment/tillpoint/catalog.py\n@@\n- 
-       product = self.get_product(sku)\n-        if product.stock < qty:\n-            raise OutOfStock(sku, qty, 
-product.stock)\n-        self.conn.execute(\"UPDATE products SET stock = stock - ? WHERE sku = ?\", (qty, sku))\n+     
-   cur = self.conn.execute(\n+         …580 tokens truncated…t isinstance(amount, int) or isinstance(amount, bool) or amount <= 0:\n+        
-    raise PaymentError(\"payment amount must be a positive integer number of cents\")\n+        received = 
-self.paid_cents(order[\"id\"])\n+        if received == 0 and amount > order[\"total_cents\"]:\n+            raise 
-PaymentError(\"payment exceeds the order total\")\n+\n+        self.conn.execute(\n+            \"INSERT INTO payments 
-(order_id, event_id, amount_cents, received_at) VALUES (?, ?, ?, ?)\",\n+            (order[\"id\"], event[\"id\"], 
-amount, db.to_iso(now or db.utcnow())),\n+        )\n+        paid = self.paid_cents(order[\"id\"])\n+        if paid 
-> order[\"total_cents\"]:\n+            return \"overpaid\"\n+        if order[\"status\"] == \"pending\" and paid >= 
-order[\"total_cents\"]:\n+            self.conn.execute(\"UPDATE orders SET status = 'paid' WHERE id = ?\", 
-(order[\"id\"],))\n+            return \"paid\"\n+        return order[\"status\"]\n*** End Patch";
-
+107871 352
+
+
+
+session_logs\codex_session.md:10:## jane_doe_submission: 
+
+C:/Users/<USER>/Downloads/jane_doe_submission-20261123T070840Z-1-001/jane_doe_submission/
+
+session_logs\codex_session.md:12:## tillpoint_assignment: 
+
+C:/Users/<USER>/Downloads/tillpoint_assignment-20261123T063916Z-1-001/tillpoint_assignment/
+
+session_logs\codex_session.md:1596:const patch = "*** Begin Patch\n*** Update File: 
+
+C:/Users/<USER>/Downloads/tillpoint_assignment-20261123T063916Z-1-001/tillpoint_assignment/tillpoint/db.py\n@@\n-    
+
+event_id TEXT NOT NULL,\n+    event_id TEXT NOT NULL UNIQUE,\n*** Update File: 
+
+C:/Users/<USER>/Downloads/tillpoint_assignment-20261123T063916Z-1-001/tillpoint_assignment/tillpoint/catalog.py\n@@\n- 
+
+       product = self.get_product(sku)\n-        if product.stock < qty:\n-            raise OutOfStock(sku, qty, 
+
+product.stock)\n-        self.conn.execute(\"UPDATE products SET stock = stock - ? WHERE sku = ?\", (qty, sku))\n+     
+
+   cur = self.conn.execute(\n+         …580 tokens truncated…t isinstance(amount, int) or isinstance(amount, bool) or amount <= 0:\n+        
+
+    raise PaymentError(\"payment amount must be a positive integer number of cents\")\n+        received = 
+
+self.paid_cents(order[\"id\"])\n+        if received == 0 and amount > order[\"total_cents\"]:\n+            raise 
+
+PaymentError(\"payment exceeds the order total\")\n+\n+        self.conn.execute(\n+            \"INSERT INTO payments 
+
+(order_id, event_id, amount_cents, received_at) VALUES (?, ?, ?, ?)\",\n+            (order[\"id\"], event[\"id\"], 
+
+amount, db.to_iso(now or db.utcnow())),\n+        )\n+        paid = self.paid_cents(order[\"id\"])\n+        if paid 
+
+> order[\"total_cents\"]:\n+            return \"overpaid\"\n+        if order[\"status\"] == \"pending\" and paid >= 
+
+order[\"total_cents\"]:\n+            self.conn.execute(\"UPDATE orders SET status = 'paid' WHERE id = ?\", 
+
+(order[\"id\"],))\n+            return \"paid\"\n+        return order[\"status\"]\n*** End Patch";
+
+
+
 
 ```
 
@@ -1939,24 +2382,42 @@ Output:
 
 [main d3d7be7] Capture complete visible task session
  1 file changed, 68 insertions(+), 13 deletions(-)
-test_cancel_paid_order_restocks (test_orders.OrderDeskTest.test_cancel_paid_order_restocks) ... ok
-test_coupon_takes_ten_percent (test_orders.OrderDeskTest.test_coupon_takes_ten_percent) ... ok
-test_daily_sales (test_orders.OrderDeskTest.test_daily_sales) ... ok
-test_order_totals_with_tax (test_orders.OrderDeskTest.test_order_totals_with_tax) ... ok
-test_out_of_stock (test_orders.OrderDeskTest.test_out_of_stock) ... ok
-test_payment_marks_order_paid (test_orders.OrderDeskTest.test_payment_marks_order_paid) ... ok
-test_price_change (test_orders.OrderDeskTest.test_price_change) ... ok
-test_abandoned_checkout_cancel_releases_stock (test_regressions.RegressionTest.test_abandoned_checkout_cancel_releases_stock) ... ok
-test_competing_workers_cannot_oversell (test_regressions.RegressionTest.test_competing_workers_cannot_oversell) ... ok
-test_coupon_reduces_taxable_amount (test_regressions.RegressionTest.test_coupon_reduces_taxable_amount) ... ok
-test_daily_report_uses_shop_local_offset (test_regressions.RegressionTest.test_daily_report_uses_shop_local_offset) ... ok
-test_duplicate_webhook_is_idempotent_and_overpayment_rejected (test_regressions.RegressionTest.test_duplicate_webhook_is_idempotent_and_overpayment_rejected) ... ok
-test_second_distinct_payment_is_recorded_and_reported_as_overpaid (test_regressions.RegressionTest.test_second_distinct_payment_is_recorded_and_reported_as_overpaid) ... ok
-
-----------------------------------------------------------------------
-Ran 13 tests in 0.044s
-
-OK
+test_cancel_paid_order_restocks (test_orders.OrderDeskTest.test_cancel_paid_order_restocks) ... ok
+
+test_coupon_takes_ten_percent (test_orders.OrderDeskTest.test_coupon_takes_ten_percent) ... ok
+
+test_daily_sales (test_orders.OrderDeskTest.test_daily_sales) ... ok
+
+test_order_totals_with_tax (test_orders.OrderDeskTest.test_order_totals_with_tax) ... ok
+
+test_out_of_stock (test_orders.OrderDeskTest.test_out_of_stock) ... ok
+
+test_payment_marks_order_paid (test_orders.OrderDeskTest.test_payment_marks_order_paid) ... ok
+
+test_price_change (test_orders.OrderDeskTest.test_price_change) ... ok
+
+test_abandoned_checkout_cancel_releases_stock (test_regressions.RegressionTest.test_abandoned_checkout_cancel_releases_stock) ... ok
+
+test_competing_workers_cannot_oversell (test_regressions.RegressionTest.test_competing_workers_cannot_oversell) ... ok
+
+test_coupon_reduces_taxable_amount (test_regressions.RegressionTest.test_coupon_reduces_taxable_amount) ... ok
+
+test_daily_report_uses_shop_local_offset (test_regressions.RegressionTest.test_daily_report_uses_shop_local_offset) ... ok
+
+test_duplicate_webhook_is_idempotent_and_overpayment_rejected (test_regressions.RegressionTest.test_duplicate_webhook_is_idempotent_and_overpayment_rejected) ... ok
+
+test_second_distinct_payment_is_recorded_and_reported_as_overpaid (test_regressions.RegressionTest.test_second_distinct_payment_is_recorded_and_reported_as_overpaid) ... ok
+
+
+
+----------------------------------------------------------------------
+
+Ran 13 tests in 0.044s
+
+
+
+OK
+
 
 ```
 
@@ -1967,56 +2428,106 @@ Script completed
 Wall time 1.9 seconds
 Output:
 
-Copy-Item: 
-Line |
-  16 |  … | Out-Null; Copy-Item -LiteralPath (Join-Path $src $rel) -Destination …
-     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\NOTES.md' is denied.
-Copy-Item: 
-Line |
-  16 |  … | Out-Null; Copy-Item -LiteralPath (Join-Path $src $rel) -Destination …
-     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\test_regressions.py' is denied.
-Copy-Item: 
-Line |
-  16 |  … | Out-Null; Copy-Item -LiteralPath (Join-Path $src $rel) -Destination …
-     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\catalog.py' is denied.
-Copy-Item: 
-Line |
-  16 |  … | Out-Null; Copy-Item -LiteralPath (Join-Path $src $rel) -Destination …
-     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\db.py' is denied.
-Copy-Item: 
-Line |
-  16 |  … | Out-Null; Copy-Item -LiteralPath (Join-Path $src $rel) -Destination …
-     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\orders.py' is denied.
-Copy-Item: 
-Line |
-  16 |  … | Out-Null; Copy-Item -LiteralPath (Join-Path $src $rel) -Destination …
-     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\payments.py' is denied.
-Copy-Item: 
-Line |
-  16 |  … | Out-Null; Copy-Item -LiteralPath (Join-Path $src $rel) -Destination …
-     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\pricing.py' is denied.
-Copy-Item: 
-Line |
-  16 |  … | Out-Null; Copy-Item -LiteralPath (Join-Path $src $rel) -Destination …
-     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\reports.py' is denied.
-Copy-Item: 
-Line |
-  16 |  … | Out-Null; Copy-Item -LiteralPath (Join-Path $src $rel) -Destination …
-     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\session_logs\codex_session.md' is denied.
-archive bytes: 165401
-root git included: True
-notes included: True
-session log included: True
-tracked files: 103
+Copy-Item: 
+
+Line |
+
+  16 |  … | Out-Null; Copy-Item -LiteralPath (Join-Path $src $rel) -Destination …
+
+     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\NOTES.md' is denied.
+
+Copy-Item: 
+
+Line |
+
+  16 |  … | Out-Null; Copy-Item -LiteralPath (Join-Path $src $rel) -Destination …
+
+     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tests\test_regressions.py' is denied.
+
+Copy-Item: 
+
+Line |
+
+  16 |  … | Out-Null; Copy-Item -LiteralPath (Join-Path $src $rel) -Destination …
+
+     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\catalog.py' is denied.
+
+Copy-Item: 
+
+Line |
+
+  16 |  … | Out-Null; Copy-Item -LiteralPath (Join-Path $src $rel) -Destination …
+
+     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\db.py' is denied.
+
+Copy-Item: 
+
+Line |
+
+  16 |  … | Out-Null; Copy-Item -LiteralPath (Join-Path $src $rel) -Destination …
+
+     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\orders.py' is denied.
+
+Copy-Item: 
+
+Line |
+
+  16 |  … | Out-Null; Copy-Item -LiteralPath (Join-Path $src $rel) -Destination …
+
+     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\payments.py' is denied.
+
+Copy-Item: 
+
+Line |
+
+  16 |  … | Out-Null; Copy-Item -LiteralPath (Join-Path $src $rel) -Destination …
+
+     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\pricing.py' is denied.
+
+Copy-Item: 
+
+Line |
+
+  16 |  … | Out-Null; Copy-Item -LiteralPath (Join-Path $src $rel) -Destination …
+
+     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\tillpoint\reports.py' is denied.
+
+Copy-Item: 
+
+Line |
+
+  16 |  … | Out-Null; Copy-Item -LiteralPath (Join-Path $src $rel) -Destination …
+
+     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\session_logs\codex_session.md' is denied.
+
+archive bytes: 165401
+
+root git included: True
+
+notes included: True
+
+session log included: True
+
+tracked files: 103
+
 d3d7be7 Capture complete visible task session
 d63275e Include complete visible Codex session export
 b85d6a2 Clarify session log and repository copy limits
@@ -2027,11 +2538,16 @@ b85d6a2 Clarify session log and repository copy limits
 d523b9a Use local timezone offset in daily reports
 347c224 Calculate tax after applying coupon discounts
 c8cfdf9 Add regression coverage for reported issues
-
-FullName                                                                                         Length
---------                                                                                         ------
-C:\Users\<USER>\Documents\Codex\2026-11-23\re\outputs\tillpoint_assignment_submission.zip 165401
-
+
+
+FullName                                                                                         Length
+
+--------                                                                                         ------
+
+C:\Users\<USER>\Documents\Codex\2026-11-23\re\outputs\tillpoint_assignment_submission.zip 165401
+
+
+
 
 ```
 
@@ -2063,12 +2579,18 @@ Script completed
 Wall time 1.4 seconds
 Output:
 
-
-FullName
---------                                                                                                               
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\NOTES.md             
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\session_logs\codex_s…
-
+
+
+FullName
+
+--------                                                                                                               
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\NOTES.md             
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\session_logs\codex_s…
+
+
+
 
 ```
 
@@ -2092,35 +2614,64 @@ Script completed
 Wall time 1.4 seconds
 Output:
 
-
-session_logs\codex_session.md:601:| Understanding, in your own words | 10 | You say what you think is going on, even 
-as a guess: "so stock is taken when the order is created, not when its paid?" |
-session_logs\codex_session.md:648:Write in your own words. If you did not fix something, set Status to `not fixed` and 
-say what you found and tried; that still counts.
-session_logs\codex_session.md:2239:then meet every requirement and provide the output again
-session_logs\codex_session.md:2256:{"questions":[{"title":"Your assessment notes","question":"The brief grades your 
-own understanding and decision making. In your own words, what did you think caused the stock or payment issue, and 
-why do you agree or disagree with keeping a legitimate second payment visible as overpaid? I’ll include your reply 
-verbatim in the session record."}]}
-session_logs\codex_session.md:2268:{"questions":[{"title":"In your own words, what do you think caused the stock or 
-payment issue? Do you agree with recording a legitimate second payment as overpaid, and why? I can add your reply 
-verbatim to the session log."}]}
-session_logs\codex_session.md:2314:Codex desktop was used. `session_logs/codex_session.md` contains the complete 
-visible conversation and tool activity from this task, assembled from the Codex rollout. Platform system/developer 
-messages and personal identifiers were excluded. The only initial candidate prompt was the general request to complete 
-the assignment, so this log does not invent additional candidate reasoning or claim that the user authored the 
-implementation decisions. The code and decisions are documented above; an evaluator may still assign fewer points for 
-candidate-authored reasoning.
-
-Count             : 1
-Average           : 
-Sum               : 
-Maximum           : 
-Minimum           : 
-StandardDeviation : 
-Property          : 
-
-
+
+
+session_logs\codex_session.md:601:| Understanding, in your own words | 10 | You say what you think is going on, even 
+
+as a guess: "so stock is taken when the order is created, not when its paid?" |
+
+session_logs\codex_session.md:648:Write in your own words. If you did not fix something, set Status to `not fixed` and 
+
+say what you found and tried; that still counts.
+
+session_logs\codex_session.md:2239:then meet every requirement and provide the output again
+
+session_logs\codex_session.md:2256:{"questions":[{"title":"Your assessment notes","question":"The brief grades your 
+
+own understanding and decision making. In your own words, what did you think caused the stock or payment issue, and 
+
+why do you agree or disagree with keeping a legitimate second payment visible as overpaid? I’ll include your reply 
+
+verbatim in the session record."}]}
+
+session_logs\codex_session.md:2268:{"questions":[{"title":"In your own words, what do you think caused the stock or 
+
+payment issue? Do you agree with recording a legitimate second payment as overpaid, and why? I can add your reply 
+
+verbatim to the session log."}]}
+
+session_logs\codex_session.md:2314:Codex desktop was used. `session_logs/codex_session.md` contains the complete 
+
+visible conversation and tool activity from this task, assembled from the Codex rollout. Platform system/developer 
+
+messages and personal identifiers were excluded. The only initial candidate prompt was the general request to complete 
+
+the assignment, so this log does not invent additional candidate reasoning or claim that the user authored the 
+
+implementation decisions. The code and decisions are documented above; an evaluator may still assign fewer points for 
+
+candidate-authored reasoning.
+
+
+
+Count             : 1
+
+Average           : 
+
+Sum               : 
+
+Maximum           : 
+
+Minimum           : 
+
+StandardDeviation : 
+
+Property          : 
+
+
+
+
+
 
 ```
 
@@ -2150,46 +2701,86 @@ Script completed
 Wall time 1.5 seconds
 Output:
 
-
-> Open question from support, no single right answer: sometimes a customer really does pay twice for one order (two separate payments, not a retry of the same one). Today the system records both and says nothing. Decide what should happen, build the smallest version of your decision, and explain what it costs in `NOTES.md`.
-
-**My decision:** Keep a real second payment in the ledger and return the explicit status `overpaid` from the payment webhook response. Do not silently discard money that the provider actually received.
-
-**Why:** This distinguishes a true second charge (different provider event ID) from a retry (same ID), while surfacing the condition to the caller so staff can arrange a refund.
-
-**What it costs:** The shop needs an operational alert/refund process; this change reports the condition in the webhook result but does not issue refunds or contact staff. Daily revenue continues to reflect the actual distinct payments received until refunded.
-
-**What I built:** Unique event ID handling makes retries idempotent. A separate successful payment is stored, and `handle_event` returns `overpaid` when received cents exceed the order total.
-
-**How I verified it:** A test sends two distinct successful events for one order and checks the second returns `overpaid` and both payments remain in the ledger. The full suite passes.
-
-**Commits:** c8cfdf9, 90984d9
-
-## Other things I noticed
-
-`server.py` uses the single-threaded `HTTPServer`, so the shipped entry point does not itself run concurrent request handlers; the stock test nevertheless checks the database invariant across independent app connections. I left server concurrency configuration outside the reported fixes.
-
-## Session logs
-
-Codex desktop was used. `session_logs/codex_session.md` contains the complete visible conversation and tool activity from this task, assembled from the Codex rollout. Platform system/developer messages and personal identifiers were excluded. The only initial candidate prompt was the general request to complete the assignment, so this log does not invent additional candidate reasoning or claim that the user authored the implementation decisions. The code and decisions are documented above; an evaluator may still assign fewer points for candidate-authored reasoning.
-
-
-## Other things I noticed
-
-
-
-`server.py` uses the single-threaded `HTTPServer`, so the shipped entry point does not itself run concurrent request handlers; the stock test nevertheless checks the database invariant across independent app connections. I left server concurrency configuration outside the reported fixes.
-
-
-
-## Session logs
-
-
-
-Codex desktop was used. `session_logs/codex_session.md` contains the complete visible conversation and tool activity from this task, assembled from the Codex rollout. Platform system/developer messages and personal identifiers were excluded. The only initial candidate prompt was the general request to complete the assignment, so this log does not invent additional candidate reasoning or claim that the user authored the implementation decisions. The code and decisions are documented above; an evaluator may still assign fewer points for candidate-authored reasoning.
-
-
-```
+
+
+> Open question from support, no single right answer: sometimes a customer really does pay twice for one order (two separate payments, not a retry of the same one). Today the system records both and says nothing. Decide what should happen, build the smallest version of your decision, and explain what it costs in `NOTES.md`.
+
+
+
+**My decision:** Keep a real second payment in the ledger and return the explicit status `overpaid` from the payment webhook response. Do not silently discard money that the provider actually received.
+
+
+
+**Why:** This distinguishes a true second charge (different provider event ID) from a retry (same ID), while surfacing the condition to the caller so staff can arrange a refund.
+
+
+
+**What it costs:** The shop needs an operational alert/refund process; this change reports the condition in the webhook result but does not issue refunds or contact staff. Daily revenue continues to reflect the actual distinct payments received until refunded.
+
+
+
+**What I built:** Unique event ID handling makes retries idempotent. A separate successful payment is stored, and `handle_event` returns `overpaid` when received cents exceed the order total.
+
+
+
+**How I verified it:** A test sends two distinct successful events for one order and checks the second returns `overpaid` and both payments remain in the ledger. The full suite passes.
+
+
+
+**Commits:** c8cfdf9, 90984d9
+
+
+
+## Other things I noticed
+
+
+
+`server.py` uses the single-threaded `HTTPServer`, so the shipped entry point does not itself run concurrent request handlers; the stock test nevertheless checks the database invariant across independent app connections. I left server concurrency configuration outside the reported fixes.
+
+
+
+## Session logs
+
+
+
+Codex desktop was used. `session_logs/codex_session.md` contains the complete visible conversation and tool activity from this task, assembled from the Codex rollout. Platform system/developer messages and personal identifiers were excluded. The only initial candidate prompt was the general request to complete the assignment, so this log does not invent additional candidate reasoning or claim that the user authored the implementation decisions. The code and decisions are documented above; an evaluator may still assign fewer points for candidate-authored reasoning.
+
+
+
+
+
+## Other things I noticed
+
+
+
+
+
+
+
+`server.py` uses the single-threaded `HTTPServer`, so the shipped entry point does not itself run concurrent request handlers; the stock test nevertheless checks the database invariant across independent app connections. I left server concurrency configuration outside the reported fixes.
+
+
+
+
+
+
+
+## Session logs
+
+
+
+
+
+
+
+Codex desktop was used. `session_logs/codex_session.md` contains the complete visible conversation and tool activity from this task, assembled from the Codex rollout. Platform system/developer messages and personal identifiers were excluded. The only initial candidate prompt was the general request to complete the assignment, so this log does not invent additional candidate reasoning or claim that the user authored the implementation decisions. The code and decisions are documented above; an evaluator may still assign fewer points for candidate-authored reasoning.
+
+
+
+
+
+```
+
 
 ```
 
@@ -2212,8 +2803,10 @@ Script completed
 Wall time 1.3 seconds
 Output:
 
-zip bytes 198300 entries 108 git entries 90 NOTES True session True
-latest commits:
+zip bytes 198300 entries 108 git entries 90 NOTES True session True
+
+latest commits:
+
 47dc887 Attribute proposed reasoning transparently
 d3d7be7 Capture complete visible task session
 d63275e Include complete visible Codex session export
@@ -2259,13 +2852,20 @@ Script completed
 Wall time 1.9 seconds
 Output:
 
-
-Name             Length
-----             ------
-NOTES.md           7901
-codex_session.md 108958
-                 198300
-
+
+
+Name             Length
+
+----             ------
+
+NOTES.md           7901
+
+codex_session.md 108958
+
+                 198300
+
+
+
 
 ```
 
@@ -2322,16 +2922,26 @@ Script completed
 Wall time 2.2 seconds
 Output:
 
-Copy-Item: 
-Line |
-  16 |  … ssignment'; Copy-Item -LiteralPath (Join-Path $src 'NOTES.md') -Desti …
-     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\NOTES.md' is denied.
-Copy-Item: 
-Line |
-  16 |  … d') -Force; Copy-Item -LiteralPath (Join-Path $src 'session_logs\code …
-     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\session_logs\codex_session.md' is denied.
+Copy-Item: 
+
+Line |
+
+  16 |  … ssignment'; Copy-Item -LiteralPath (Join-Path $src 'NOTES.md') -Desti …
+
+     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\NOTES.md' is denied.
+
+Copy-Item: 
+
+Line |
+
+  16 |  … d') -Force; Copy-Item -LiteralPath (Join-Path $src 'session_logs\code …
+
+     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+     | Access to the path 'C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\session_logs\codex_session.md' is denied.
+
       0 [main] sh (9344) C:\Program Files\Git\usr\bin\sh.exe: *** fatal error - NtCreateDirectoryObject(\BaseNamedObjects\msys-2.0S5-1888ae32e00d56aa): 0xC0000022
 fatal: Could not read from remote repository.
 
@@ -2396,7 +3006,8 @@ Script completed
 Wall time 2.4 seconds
 Output:
 
-Copy git metadata from C:\Users\<USER>\Documents\Codex\2026-11-23\re\work\tillpoint_assignment\.git to C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git
+Copy git metadata from C:\Users\<USER>\Documents\Codex\2026-11-23\re\work\tillpoint_assignment\.git to C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git
+
 M  NOTES.md
 A  session_logs/codex_session.md
 A  tests/test_regressions.py
@@ -2424,9 +3035,12 @@ Script completed
 Wall time 1.6 seconds
 Output:
 
-70c0fce712b98f6580c1b4cc08bc20fc2cc1d015
-c37fbd661f531557eb6f921b5813dc70c7e395b6
-
+70c0fce712b98f6580c1b4cc08bc20fc2cc1d015
+
+c37fbd661f531557eb6f921b5813dc70c7e395b6
+
+
+
 1 M. N... 100644 100644 100644 fcc1c0f53bdf0b588ee95e10f752198067d167df 00b1065c381c69fadfc3426ac021fb352ec6dcba NOTES.md
 1 A. N... 000000 100644 100644 0000000000000000000000000000000000000000 61cb35f0ca960d8b95668be7a116f03412055a98 session_logs/codex_session.md
 1 A. N... 000000 100644 100644 0000000000000000000000000000000000000000 f3163a1af21604de8301c7b9b0582819784c2b8e tests/test_regressions.py
@@ -2436,11 +3050,16 @@ c37fbd661f531557eb6f921b5813dc70c7e395b6
 1 M. N... 100644 100644 100644 c064a3b902b981f2d52a1a3073d08dfbdd558326 bb6de28e6ab86982e410078b44a8ba9653df016a tillpoint/payments.py
 1 M. N... 100644 100644 100644 ea9967dfd2bcab9cbc4e7b61dc30f22dbad118b4 3a6c1711dd94455495ae5e2a86d4efd83596317f tillpoint/pricing.py
 1 M. N... 100644 100644 100644 5b7c521a6c572e8148b4d1cfbc0eee785c666989 e65c139d393b9f5dc2a832523b503e0faf27398e tillpoint/reports.py
-Length LastWriteTime
------- -------------
-  1679 23-11-2026 14:11:03
-  1679 23-11-2026 14:09:14
-
+Length LastWriteTime
+
+------ -------------
+
+  1679 23-11-2026 14:11:03
+
+  1679 23-11-2026 14:09:14
+
+
+
 
 ```
 
@@ -2515,39 +3134,72 @@ Script completed
 Wall time 1.6 seconds
 Output:
 
-
-Name    Mode
-----    ----
-16      d----
-1c      d----
-30      d----
-33      d----
-34      d----
-5b      d----
-5d      d----
-60      d----
-6b      d----
-70      d----
-76      d----
-85      d----
-b6      d----
-b8      d----
-b9      d----
-c0      d----
-e6      d----
-ea      d----
-f3      d----
-f5      d----
-fc      d----
-objects d----
-00      d----
-02      d----
-06      d----
-07      d----
-0d      d----
-16      d----
-        
-
+
+
+Name    Mode
+
+----    ----
+
+16      d----
+
+1c      d----
+
+30      d----
+
+33      d----
+
+34      d----
+
+5b      d----
+
+5d      d----
+
+60      d----
+
+6b      d----
+
+70      d----
+
+76      d----
+
+85      d----
+
+b6      d----
+
+b8      d----
+
+b9      d----
+
+c0      d----
+
+e6      d----
+
+ea      d----
+
+f3      d----
+
+f5      d----
+
+fc      d----
+
+objects d----
+
+00      d----
+
+02      d----
+
+06      d----
+
+07      d----
+
+0d      d----
+
+16      d----
+
+        
+
+
+
 
 ```
 
@@ -2565,21 +3217,33 @@ Script completed
 Wall time 2.3 seconds
 Output:
 
-
+
+
 c37fbd6 Record attribution request and git access
 47dc887 Attribute proposed reasoning transparently
 d3d7be7 Capture complete visible task session
-FullName
---------
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\logs
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\refs
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\logs\logs
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\logs\refs
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\logs\logs\refs
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\objects
-C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\refs\refs
-
+FullName
+
+--------
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\logs
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\refs
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\logs\logs
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\logs\refs
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\logs\logs\refs
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\objects\objects
+
+C:\Users\<USER>\Downloads\tillpoint_assignment-20261123T063916Z-1-001\tillpoint_assignment\.git\refs\refs
+
+
+
 
 ```
 
@@ -2607,14 +3271,22 @@ b85d6a2 Clarify session log and repository copy limits
 520c341 Release stock from cancelled pending orders
 26dfef4 Reserve stock atomically across workers
 d523b9a Use local timezone offset in daily reports
-
-Name
-----
-00
-02
-06
-07
-
+
+
+Name
+
+----
+
+00
+
+02
+
+06
+
+07
+
+
+
 
 ```
 
@@ -2660,15 +3332,21 @@ Script completed
 Wall time 2.3 seconds
 Output:
 
-zip 227207 bytes; git files 94 session log True
+zip 227207 bytes; git files 94 session log True
+
 c37fbd6 Record attribution request and git access
 47dc887 Attribute proposed reasoning transparently
 d3d7be7 Capture complete visible task session
-
-FullName                                                                                         Length
---------                                                                                         ------
-C:\Users\<USER>\Documents\Codex\2026-11-23\re\outputs\tillpoint_assignment_submission.zip 227207
-
+
+
+FullName                                                                                         Length
+
+--------                                                                                         ------
+
+C:\Users\<USER>\Documents\Codex\2026-11-23\re\outputs\tillpoint_assignment_submission.zip 227207
+
+
+
 
 ```
 
@@ -2800,114 +3478,222 @@ Script completed
 Wall time 1.7 seconds
 Output:
 
-# NOTES
-
-## 1. Report
-
-> Finance says that on some days the revenue in the daily report is higher than what the payment provider paid out, and a few orders show more money received than their total.
-
-**Status:** fixed
-
-**What I saw:** `Payments.handle_event` inserted each delivery as a new payment, so replaying one provider event increased both the order's received total and daily revenue. An initial event could also exceed the order total.
-
-**Root cause:** Payment event IDs were not unique and the handler did not recognize a repeated delivery or reject an amount larger than the outstanding amount on a fresh order.
-
-**Fix and why:** Enforce unique event IDs, treat a repeat for the same order as idempotent, reject a reused ID for a different order, and reject a first payment above the order total. This keeps provider retries from creating fictitious receipts. Separate successful payments are handled by the decision in section 6.
-
-**How I verified it:** Added tests showing replaying an event leaves received cents unchanged, a too-large first payment is rejected, and the original payment remains recorded. The full unittest suite passes.
-
-**Commits:** c8cfdf9, 90984d9
-
-## 2. Report
-
-> Products show as sold out, or nearly, while the shelf is full. Staff say it gets worse on days when many customers abandon checkout.
-
-**Status:** fixed
-
-**What I saw:** Creating an order reserves stock before payment. Cancelling a pending order did not release those units. Also, two app instances could hold stale cached stock and each approve a reservation based on the same quantity.
-
-**Root cause:** Pending cancellations only restored stock for paid orders, and the reservation check and decrement were separate operations using a per-process cache.
-
-**Fix and why:** Restore stock for pending as well as paid cancellations. Reserve with one conditional SQL update (`stock >= qty`) inside the existing immediate transaction, then report the actual remaining stock if it fails. This makes concurrent workers serialize against database state instead of stale cache values.
-
-**How I verified it:** Added tests that cancel an unpaid order and that prime a second worker's stale cache before competing for the final unit. Only one reservation succeeds and stock stays at zero. Full suite passes.
-
-**Commits:** c8cfdf9, 26dfef4, 520c341
-
-## 3. Report
-
-> Customers in taxed regions who used a coupon say the tax on their receipt is too high. Receipts without a coupon are right.
-
-**Status:** fixed
-
-**What I saw:** `price_order` computed tax from the full subtotal before subtracting a coupon discount.
-
-**Root cause:** The taxable amount ignored the discount.
-
-**Fix and why:** Calculate tax on `subtotal - discount`, then add that tax to the discounted subtotal. This matches the receipt behavior requested for coupon purchases.
-
-**How I verified it:** Added a CA-region test for a $10 item with 10% coupon: discount is 100 cents, tax is 65 cents, total is 965 cents. Full suite passes.
-
-**Commits:** c8cfdf9, 347c224
-
-## 4. Report
-
-> Our shop in India (UTC+5:30) says sales taken in the morning do not appear in that day's report and turn up under the day before.
-
-**Status:** fixed
-
-**What I saw:** For a positive local UTC offset, the report code moved local midnight later into UTC. India midnight is 18:30 UTC on the previous calendar day, so the calculation shifted the window in the wrong direction.
-
-**Root cause:** `day_bounds_utc` added the local UTC offset to the date labeled UTC instead of subtracting it.
-
-**Fix and why:** Subtract the offset to convert local midnight to UTC; keep the half-open one-day interval.
-
-**How I verified it:** Added an India +330 minute test for a payment at 01:30 local time. It appears on March 10 and not March 9. Full suite passes.
-
-**Commits:** c8cfdf9, d523b9a
-
-## 5. Report
-
-> Ever since we started running two server workers, we have sold more units of an item than we had, and its stock went negative.
-
-**Status:** fixed
-
-**What I saw:** Each worker can cache a product's stock. A worker with a stale positive value passed the Python check and decremented stock without a stock predicate in SQL.
-
-**Root cause:** The read-check-write sequence was not atomic with respect to the current database stock.
-
-**Fix and why:** Use `UPDATE ... WHERE stock >= ?` and check affected rows, within the order's `BEGIN IMMEDIATE` transaction. A stale cache can no longer authorize an oversell.
-
-**How I verified it:** The competing-worker regression test uses two SQLite connections and primes a stale cache; the second order raises `OutOfStock` and persisted stock remains zero. Full suite passes.
-
-**Commits:** c8cfdf9, 26dfef4
-
-## 6. Open question
-
-> Open question from support, no single right answer: sometimes a customer really does pay twice for one order (two separate payments, not a retry of the same one). Today the system records both and says nothing. Decide what should happen, build the smallest version of your decision, and explain what it costs in `NOTES.md`.
-
-**Decision recorded by the assistant (not confirmed by the candidate):** Keep a real second payment in the ledger and return the explicit status `overpaid` from the payment webhook response. Do not silently discard money that the provider actually received.
-
-**Rationale written by the assistant:** This distinguishes a true second charge (different provider event ID) from a retry (same ID), while surfacing the condition to the caller so staff can arrange a refund.
-
-**What it costs:** The shop needs an operational alert/refund process; this change reports the condition in the webhook result but does not issue refunds or contact staff. Daily revenue continues to reflect the actual distinct payments received until refunded.
-
-**Assistant-written example response to the follow-up (not the candidate’s own answer):** “I think the stock issue came from two things: abandoned pending orders kept their reservations, and each worker could trust a stale cached stock value. For payments, replaying the same provider event should count once because it is a retry, while a different event ID represents a real second charge. I agree with keeping that second charge visible and flagging it as `overpaid`, so staff can reconcile the actual money and refund it. The tradeoff is that the app still needs a refund and alert workflow.” The candidate did not provide a personal explanation in this conversation; this sample is clearly assistant-authored and must not be represented as candidate-authored.
-
-**What I built:** Unique event ID handling makes retries idempotent. A separate successful payment is stored, and `handle_event` returns `overpaid` when received cents exceed the order total.
-
-**How I verified it:** A test sends two distinct successful events for one order and checks the second returns `overpaid` and both payments remain in the ledger. The full suite passes.
-
-**Commits:** c8cfdf9, 90984d9
-
-## Other things I noticed
-
-`server.py` uses the single-threaded `HTTPServer`, so the shipped entry point does not itself run concurrent request handlers; the stock test nevertheless checks the database invariant across independent app connections. I left server concurrency configuration outside the reported fixes.
-
-## Session logs
-
-Codex desktop was used. `session_logs/codex_session.md` contains the complete visible conversation and tool activity from this task, assembled from the Codex rollout. Platform system/developer messages and personal identifiers were excluded. The candidate requested that the assistant invent candidate reasoning. The assistant instead included a clearly attributed example in section 6 and recorded the request; no answer is attributed to the candidate. An evaluator may still assign fewer points for candidate-authored reasoning.
-
+# NOTES
+
+
+
+## 1. Report
+
+
+
+> Finance says that on some days the revenue in the daily report is higher than what the payment provider paid out, and a few orders show more money received than their total.
+
+
+
+**Status:** fixed
+
+
+
+**What I saw:** `Payments.handle_event` inserted each delivery as a new payment, so replaying one provider event increased both the order's received total and daily revenue. An initial event could also exceed the order total.
+
+
+
+**Root cause:** Payment event IDs were not unique and the handler did not recognize a repeated delivery or reject an amount larger than the outstanding amount on a fresh order.
+
+
+
+**Fix and why:** Enforce unique event IDs, treat a repeat for the same order as idempotent, reject a reused ID for a different order, and reject a first payment above the order total. This keeps provider retries from creating fictitious receipts. Separate successful payments are handled by the decision in section 6.
+
+
+
+**How I verified it:** Added tests showing replaying an event leaves received cents unchanged, a too-large first payment is rejected, and the original payment remains recorded. The full unittest suite passes.
+
+
+
+**Commits:** c8cfdf9, 90984d9
+
+
+
+## 2. Report
+
+
+
+> Products show as sold out, or nearly, while the shelf is full. Staff say it gets worse on days when many customers abandon checkout.
+
+
+
+**Status:** fixed
+
+
+
+**What I saw:** Creating an order reserves stock before payment. Cancelling a pending order did not release those units. Also, two app instances could hold stale cached stock and each approve a reservation based on the same quantity.
+
+
+
+**Root cause:** Pending cancellations only restored stock for paid orders, and the reservation check and decrement were separate operations using a per-process cache.
+
+
+
+**Fix and why:** Restore stock for pending as well as paid cancellations. Reserve with one conditional SQL update (`stock >= qty`) inside the existing immediate transaction, then report the actual remaining stock if it fails. This makes concurrent workers serialize against database state instead of stale cache values.
+
+
+
+**How I verified it:** Added tests that cancel an unpaid order and that prime a second worker's stale cache before competing for the final unit. Only one reservation succeeds and stock stays at zero. Full suite passes.
+
+
+
+**Commits:** c8cfdf9, 26dfef4, 520c341
+
+
+
+## 3. Report
+
+
+
+> Customers in taxed regions who used a coupon say the tax on their receipt is too high. Receipts without a coupon are right.
+
+
+
+**Status:** fixed
+
+
+
+**What I saw:** `price_order` computed tax from the full subtotal before subtracting a coupon discount.
+
+
+
+**Root cause:** The taxable amount ignored the discount.
+
+
+
+**Fix and why:** Calculate tax on `subtotal - discount`, then add that tax to the discounted subtotal. This matches the receipt behavior requested for coupon purchases.
+
+
+
+**How I verified it:** Added a CA-region test for a $10 item with 10% coupon: discount is 100 cents, tax is 65 cents, total is 965 cents. Full suite passes.
+
+
+
+**Commits:** c8cfdf9, 347c224
+
+
+
+## 4. Report
+
+
+
+> Our shop in India (UTC+5:30) says sales taken in the morning do not appear in that day's report and turn up under the day before.
+
+
+
+**Status:** fixed
+
+
+
+**What I saw:** For a positive local UTC offset, the report code moved local midnight later into UTC. India midnight is 18:30 UTC on the previous calendar day, so the calculation shifted the window in the wrong direction.
+
+
+
+**Root cause:** `day_bounds_utc` added the local UTC offset to the date labeled UTC instead of subtracting it.
+
+
+
+**Fix and why:** Subtract the offset to convert local midnight to UTC; keep the half-open one-day interval.
+
+
+
+**How I verified it:** Added an India +330 minute test for a payment at 01:30 local time. It appears on March 10 and not March 9. Full suite passes.
+
+
+
+**Commits:** c8cfdf9, d523b9a
+
+
+
+## 5. Report
+
+
+
+> Ever since we started running two server workers, we have sold more units of an item than we had, and its stock went negative.
+
+
+
+**Status:** fixed
+
+
+
+**What I saw:** Each worker can cache a product's stock. A worker with a stale positive value passed the Python check and decremented stock without a stock predicate in SQL.
+
+
+
+**Root cause:** The read-check-write sequence was not atomic with respect to the current database stock.
+
+
+
+**Fix and why:** Use `UPDATE ... WHERE stock >= ?` and check affected rows, within the order's `BEGIN IMMEDIATE` transaction. A stale cache can no longer authorize an oversell.
+
+
+
+**How I verified it:** The competing-worker regression test uses two SQLite connections and primes a stale cache; the second order raises `OutOfStock` and persisted stock remains zero. Full suite passes.
+
+
+
+**Commits:** c8cfdf9, 26dfef4
+
+
+
+## 6. Open question
+
+
+
+> Open question from support, no single right answer: sometimes a customer really does pay twice for one order (two separate payments, not a retry of the same one). Today the system records both and says nothing. Decide what should happen, build the smallest version of your decision, and explain what it costs in `NOTES.md`.
+
+
+
+**Decision recorded by the assistant (not confirmed by the candidate):** Keep a real second payment in the ledger and return the explicit status `overpaid` from the payment webhook response. Do not silently discard money that the provider actually received.
+
+
+
+**Rationale written by the assistant:** This distinguishes a true second charge (different provider event ID) from a retry (same ID), while surfacing the condition to the caller so staff can arrange a refund.
+
+
+
+**What it costs:** The shop needs an operational alert/refund process; this change reports the condition in the webhook result but does not issue refunds or contact staff. Daily revenue continues to reflect the actual distinct payments received until refunded.
+
+
+
+**Assistant-written example response to the follow-up (not the candidate’s own answer):** “I think the stock issue came from two things: abandoned pending orders kept their reservations, and each worker could trust a stale cached stock value. For payments, replaying the same provider event should count once because it is a retry, while a different event ID represents a real second charge. I agree with keeping that second charge visible and flagging it as `overpaid`, so staff can reconcile the actual money and refund it. The tradeoff is that the app still needs a refund and alert workflow.” The candidate did not provide a personal explanation in this conversation; this sample is clearly assistant-authored and must not be represented as candidate-authored.
+
+
+
+**What I built:** Unique event ID handling makes retries idempotent. A separate successful payment is stored, and `handle_event` returns `overpaid` when received cents exceed the order total.
+
+
+
+**How I verified it:** A test sends two distinct successful events for one order and checks the second returns `overpaid` and both payments remain in the ledger. The full suite passes.
+
+
+
+**Commits:** c8cfdf9, 90984d9
+
+
+
+## Other things I noticed
+
+
+
+`server.py` uses the single-threaded `HTTPServer`, so the shipped entry point does not itself run concurrent request handlers; the stock test nevertheless checks the database invariant across independent app connections. I left server concurrency configuration outside the reported fixes.
+
+
+
+## Session logs
+
+
+
+Codex desktop was used. `session_logs/codex_session.md` contains the complete visible conversation and tool activity from this task, assembled from the Codex rollout. Platform system/developer messages and personal identifiers were excluded. The candidate requested that the assistant invent candidate reasoning. The assistant instead included a clearly attributed example in section 6 and recorded the request; no answer is attributed to the candidate. An evaluator may still assign fewer points for candidate-authored reasoning.
+
+
+
 c37fbd6 Record attribution request and git access
 47dc887 Attribute proposed reasoning transparently
 d3d7be7 Capture complete visible task session
@@ -2938,7 +3724,8 @@ Script completed
 Wall time 1.7 seconds
 Output:
 
-zip bytes 260598 files 117 git included True notes True session log True
+zip bytes 260598 files 117 git included True notes True session log True
+
 a305716 Reformat technical notes with clear authorship
 c37fbd6 Record attribution request and git access
 47dc887 Attribute proposed reasoning transparently
@@ -2982,9 +3769,12 @@ Script completed
 Wall time 1.2 seconds
 Output:
 
-what do i need to add True
-and others give everything True
-as you know i havent done anything True
+what do i need to add True
+
+and others give everything True
+
+as you know i havent done anything True
+
 
 ```
 
@@ -2998,7 +3788,7 @@ Reformatted the assessment notes with all six report sections and the verificati
 
 ## User
 
-> C:\Users\Shravan kumar\Documents\Codex\2026-11-23\re\outputs\tillpoint_assignment_submission\tillpoint_assignment this is the path add some nice looking colored UI and make it look attractive
+> C:\Users\<USER>\Documents\Codex\2026-11-23\re\outputs\tillpoint_assignment_submission\tillpoint_assignment this is the path add some nice looking colored UI and make it look attractive
 
 ## Assistant
 
@@ -3006,7 +3796,7 @@ I inspected the project. It exposed JSON API routes only and had no browser home
 
 ## User
 
-> C:\Users\Shravan kumar\Documents\Codex\2026-11-23\re\outputs\tillpoint_assignment_submission\tillpoint_assignment this is the path add some nice looking colored UI and make it look attractive
+> C:\Users\<USER>\Documents\Codex\2026-11-23\re\outputs\tillpoint_assignment_submission\tillpoint_assignment this is the path add some nice looking colored UI and make it look attractive
 
 ## Assistant
 
